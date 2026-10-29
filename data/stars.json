@@ -1,20 +1,20 @@
 {
   "boykopovar/AnyPS5": {
-    "stars": 49413,
+    "stars": 49426,
     "archived": false,
     "pushed": "2026-10-29",
     "desc": "Tool for automatic PS5 executables porting to Linux and Windows",
     "synced": "2026-10-29"
   },
   "KytyPS5/KytyPS5": {
-    "stars": 10094,
+    "stars": 10098,
     "archived": false,
     "pushed": "2026-10-29",
     "desc": "PlayStation 5 translation layer for Windows, Linux and macOS",
     "synced": "2026-10-29"
   },
   "sharpemu/sharpemu": {
-    "stars": 6484,
+    "stars": 6485,
     "archived": false,
     "pushed": "2026-10-29",
     "desc": "An experimental PlayStation 5 emulator for Windows and Linux",
@@ -44,12 +44,12 @@
   "Force67/prosperity": {
     "stars": 409,
     "archived": false,
-    "pushed": "2026-10-24",
+    "pushed": "2026-10-29",
     "desc": "LLE emulator for ps4 & ps5 consoles",
     "synced": "2026-10-29"
   },
   "mpereiraesaa/prospero-win": {
-    "stars": 235,
+    "stars": 236,
     "archived": false,
     "pushed": "2026-10-29",
     "desc": "Windows compatibility runtime for native PlayStation 5 homebrew.",
@@ -84,14 +84,14 @@
     "synced": "2026-10-29"
   },
   "Swordpdf/PS5SX2": {
-    "stars": 1582,
+    "stars": 1583,
     "archived": false,
     "pushed": "2026-10-23",
     "desc": "A port of PCSX2 for PS5",
     "synced": "2026-10-29"
   },
   "mihawk-99/PS5_RetroArch": {
-    "stars": 410,
+    "stars": 411,
     "archived": false,
     "pushed": "2026-10-19",
     "desc": "🎮 RetroArch Homebrew for the PS5 that supports 35 cores & 44 systems.",
@@ -119,7 +119,7 @@
     "synced": "2026-10-29"
   },
   "holdmysocks/mcla-recomp": {
-    "stars": 208,
+    "stars": 209,
     "archived": false,
     "pushed": "2026-10-27",
     "desc": "Static recompilation of Midnight Club: Los Angeles (Xbox 360) for PC and PS5. No game data included.",
@@ -149,7 +149,7 @@
   "darkxex/SwanStationPS5": {
     "stars": 91,
     "archived": false,
-    "pushed": "2026-10-28",
+    "pushed": "2026-10-29",
     "desc": "SwanStationPS5: a PlayStation 1 emulator running natively on jailbroken PS5, based on SwanStation.  https://discord.gg/Drx8tsqq3B",
     "synced": "2026-10-29"
   },
@@ -161,14 +161,14 @@
     "synced": "2026-10-29"
   },
   "felipeAguiarCode/PS5EmuShell": {
-    "stars": 72,
+    "stars": 73,
     "archived": false,
     "pushed": "2026-10-24",
     "desc": "A launcher based on PS5 to play emulators and recomps",
     "synced": "2026-10-29"
   },
   "aarvsn/PS5Droid": {
-    "stars": 70,
+    "stars": 71,
     "archived": false,
     "pushed": "2026-10-25",
     "desc": "Android games on your PS5",
@@ -203,7 +203,7 @@
     "synced": "2026-10-29"
   },
   "ntfargo/Relapse-Exploit": {
-    "stars": 2602,
+    "stars": 2601,
     "archived": false,
     "pushed": "2026-09-30",
     "desc": "Exploit chain for PS5 7.00 - 13.60",
@@ -252,7 +252,7 @@
     "synced": "2026-10-29"
   },
   "n0llptr/remote_lua_loader": {
-    "stars": 454,
+    "stars": 453,
     "archived": false,
     "pushed": "2026-06-20",
     "desc": "",
@@ -280,7 +280,7 @@
     "synced": "2026-10-29"
   },
   "pastawithpesto/PS5-14.10-Jailbreak-Research": {
-    "stars": 342,
+    "stars": 343,
     "archived": false,
     "pushed": "2026-10-27",
     "desc": "WebKit jailbreak research for PlayStation 5 firmware 14.10",
@@ -371,7 +371,7 @@
     "synced": "2026-10-29"
   },
   "drakmor/nanoDNS": {
-    "stars": 494,
+    "stars": 496,
     "archived": false,
     "pushed": "2026-10-12",
     "desc": "Playstation 4/5 DNS proxy server",
@@ -434,21 +434,21 @@
     "synced": "2026-10-29"
   },
   "itsPLK/ps5-webkit-autoloader": {
-    "stars": 1286,
+    "stars": 1288,
     "archived": false,
     "pushed": "2026-10-28",
     "desc": "An automated payload loader for exploited PS5 consoles",
     "synced": "2026-10-29"
   },
   "EchoStretch/kstuff-lite": {
-    "stars": 842,
+    "stars": 843,
     "archived": false,
     "pushed": "2026-10-20",
     "desc": "",
     "synced": "2026-10-29"
   },
   "etaHEN/etaHEN": {
-    "stars": 826,
+    "stars": 827,
     "archived": false,
     "pushed": "2026-05-04",
     "desc": "AIO HEN payload",
@@ -483,7 +483,7 @@
     "synced": "2026-10-29"
   },
   "ps5-payload-dev/websrv": {
-    "stars": 219,
+    "stars": 220,
     "archived": false,
     "pushed": "2026-10-10",
     "desc": "A web server for jailbroken PS5s that accepts connections on port 8080",
@@ -581,7 +581,7 @@
     "synced": "2026-10-29"
   },
   "lvndry/ps5-firmware-pin": {
-    "stars": 73,
+    "stars": 74,
     "archived": false,
     "pushed": "2026-10-23",
     "desc": "Keep a jailbroken PS5 on the firmware you want. Stop forced updates from wiping your jailbreak. Tested on 13.60 (Relapse).",
@@ -595,7 +595,7 @@
     "synced": "2026-10-29"
   },
   "EchoStretch/kstuff-toggle": {
-    "stars": 51,
+    "stars": 52,
     "archived": false,
     "pushed": "2026-05-18",
     "desc": "",
@@ -779,7 +779,7 @@
   "darkxex/ProsperoStore": {
     "stars": 450,
     "archived": false,
-    "pushed": "2026-10-28",
+    "pushed": "2026-10-29",
     "desc": "Native PS5 app store for the homebrew catalog at ProsperoStore.net (title PPSA99000) https://discord.gg/Drx8tsqq3B",
     "synced": "2026-10-29"
   },
@@ -819,14 +819,14 @@
     "synced": "2026-10-29"
   },
   "elripalda/RecompStore": {
-    "stars": 270,
+    "stars": 272,
     "archived": false,
     "pushed": "2026-10-28",
     "desc": "RecompStore: the free homebrew app store for jailbroken PS5. Installs and updates recompiled game ports, emulators, apps and tools from the console. Bring your own disc.",
     "synced": "2026-10-29"
   },
   "owendswang/ps5-web-file-manager": {
-    "stars": 262,
+    "stars": 263,
     "archived": false,
     "pushed": "2026-10-22",
     "desc": "A file manager for PS5 with a web UI.",
@@ -840,7 +840,7 @@
     "synced": "2026-10-29"
   },
   "JVK3R/JobeesLair": {
-    "stars": 192,
+    "stars": 193,
     "archived": false,
     "pushed": "2026-10-28",
     "desc": "Standalone, content-neutral PS5 homebrew indexer and media framework. Proudly built alongside AI by JVK3R.",
@@ -861,7 +861,7 @@
     "synced": "2026-10-29"
   },
   "Loopayeh/pkg-viewer": {
-    "stars": 180,
+    "stars": 181,
     "archived": false,
     "pushed": "2026-10-26",
     "desc": "PKG Viewer by Loopayeh: view PS3/PS4/PS5 package info and cover art",
@@ -945,7 +945,7 @@
     "synced": "2026-10-29"
   },
   "EchoStretch/dump_installer": {
-    "stars": 91,
+    "stars": 92,
     "archived": false,
     "pushed": "2026-09-23",
     "desc": "",
@@ -966,7 +966,7 @@
     "synced": "2026-10-29"
   },
   "darkxex/ps5-homebrew-catalog": {
-    "stars": 60,
+    "stars": 61,
     "archived": false,
     "pushed": "2026-10-29",
     "desc": "https://discord.gg/Drx8tsqq3B - https://ProsperoStore.net",
@@ -987,14 +987,14 @@
     "synced": "2026-10-29"
   },
   "illusionyy/PS-Game-Patch": {
-    "stars": 406,
+    "stars": 407,
     "archived": false,
     "pushed": "2026-10-23",
     "desc": "Custom Game Patches for PlayStation 4 and PlayStation 5 Games",
     "synced": "2026-10-29"
   },
   "TeeKay87/HEN-Cheats-Collection": {
-    "stars": 286,
+    "stars": 287,
     "archived": false,
     "pushed": "2026-10-28",
     "desc": "The most complete cheats collection for the PS4 and PS5 with interactive cheats index",
@@ -1008,7 +1008,7 @@
     "synced": "2026-10-29"
   },
   "notmaj0r/CheatRunner": {
-    "stars": 268,
+    "stars": 269,
     "archived": false,
     "pushed": "2026-10-26",
     "desc": "Web-Based Cheat Trainer for PS5!",
@@ -1022,7 +1022,7 @@
     "synced": "2026-10-29"
   },
   "illusionyy/ps-patch-system": {
-    "stars": 196,
+    "stars": 195,
     "archived": false,
     "pushed": "2026-10-11",
     "desc": "App patching system for PS4/PS5",
@@ -1099,7 +1099,7 @@
     "synced": "2026-10-29"
   },
   "soniciso1/ps5-linux-loader": {
-    "stars": 278,
+    "stars": 279,
     "archived": false,
     "pushed": "2026-10-25",
     "desc": "Run Linux on PS5 - with 13.60 support including PS5 Pro (fork of ps5-linux/ps5-linux-loader)",
@@ -1113,7 +1113,7 @@
     "synced": "2026-10-29"
   },
   "VivaLaVent/ps5-bazzite-deck": {
-    "stars": 151,
+    "stars": 159,
     "archived": false,
     "pushed": "2026-10-29",
     "desc": "Bazzite Deck (Steam Gaming Mode) images for the PS5 with working Game Mode, VCN and Wi-Fi",
@@ -1211,7 +1211,7 @@
     "synced": "2026-10-29"
   },
   "cy33hc/ps5-ezremote-client": {
-    "stars": 77,
+    "stars": 78,
     "archived": false,
     "pushed": "2026-10-28",
     "desc": "",
@@ -1358,7 +1358,7 @@
     "synced": "2026-10-29"
   },
   "awalol/DS5Dongle": {
-    "stars": 2977,
+    "stars": 2976,
     "archived": false,
     "pushed": "2026-10-28",
     "desc": "Turn your Pico 2 W into a DualSense 5 dongle.",
@@ -1402,7 +1402,7 @@
   "SundayMoments/DS5_Bridge": {
     "stars": 408,
     "archived": false,
-    "pushed": "2026-08-30",
+    "pushed": "2026-10-29",
     "desc": "Wireless DualSense and DualSense Edge bridge for Raspberry Pi Pico 2 W, with Windows companion app for tuning haptics, audio, triggers, lighting, and bridge settings.",
     "synced": "2026-10-29"
   },
@@ -1596,7 +1596,7 @@
     "synced": "2026-10-29"
   },
   "abhi245y/PS5LM-Plus": {
-    "stars": 480,
+    "stars": 481,
     "archived": false,
     "pushed": "2026-10-17",
     "desc": "llama.cpp on a jailbroken PS5: run any GGUF model natively on the console, starting with Qwen 3.8",
@@ -1694,7 +1694,7 @@
     "synced": "2026-10-29"
   },
   "camtheperson/get-my-ps5": {
-    "stars": 352,
+    "stars": 353,
     "archived": false,
     "pushed": "2021-10-25",
     "desc": "A CLI utility to help people secure a PlayStation 5 (PS5).",
@@ -1712,6 +1712,104 @@
     "archived": true,
     "pushed": "2020-11-20",
     "desc": "bot to monitor PS5 stock and auto-purchase when available",
+    "synced": "2026-10-29"
+  },
+  "leolobato/playden-ps5": {
+    "stars": 862,
+    "archived": false,
+    "pushed": "2026-10-29",
+    "desc": "Play your Steam library's Windows games on a jailbroken PS5.",
+    "synced": "2026-10-29"
+  },
+  "ReynArts/ApexSenseBridge": {
+    "stars": 215,
+    "archived": false,
+    "pushed": "2026-10-29",
+    "desc": "Bring native PS5 DualSense adaptive triggers, haptics & touchpad features to Flydigi APEX 4, APEX 5 & APEX 6 Pro on Windows. 215+ games, Standalone + Playnite.",
+    "synced": "2026-10-29"
+  },
+  "xvvulcanvx/PS5-TabShifter": {
+    "stars": 102,
+    "archived": false,
+    "pushed": "2026-10-24",
+    "desc": "Standalone PS5 on-console payload to move apps between Games/Media tabs and hide offline PSN bloatware (Universal FW 5.00 – 13.60)",
+    "synced": "2026-10-29"
+  },
+  "OptiTronOffical/OptiStore": {
+    "stars": 75,
+    "archived": false,
+    "pushed": "2026-10-21",
+    "desc": "Front end for browsing PS4 and PS5 package libraries.",
+    "synced": "2026-10-29"
+  },
+  "diegobarbosaa/OmniPad-PS5": {
+    "stars": 66,
+    "archived": false,
+    "pushed": "2026-10-05",
+    "desc": "Universal controller engine & Web Dashboard for PlayStation 5 (FW 7.00 - 13.60)",
+    "synced": "2026-10-29"
+  },
+  "LikeARealG/ETS2_PS5_DualSense": {
+    "stars": 64,
+    "archived": false,
+    "pushed": "2026-04-25",
+    "desc": "Application that give the PS5 controller some life inside Euro Truck Simulator 2",
+    "synced": "2026-10-29"
+  },
+  "drakmor/pgo_stub": {
+    "stars": 59,
+    "archived": false,
+    "pushed": "2026-10-10",
+    "desc": "A lightweight replacement module for the PlayGo runtime library on PlayStation 5",
+    "synced": "2026-10-29"
+  },
+  "Paliverse/DualSenseX": {
+    "stars": 1650,
+    "archived": false,
+    "pushed": "2026-03-14",
+    "desc": "Connect your DualSense Controller, use Adaptive Triggers, Emulate Xbox 360 or DualShock 4 through USB or Bluetooth on PC",
+    "synced": "2026-10-29"
+  },
+  "HamzaYslmn/Forza-Horizon-DualSense-Python": {
+    "stars": 466,
+    "archived": false,
+    "pushed": "2026-06-20",
+    "desc": "Forza Horizon DualSense Adaptive Triggers",
+    "synced": "2026-10-29"
+  },
+  "MarcelineVPQ/DS5Dongle-OLED-Edition": {
+    "stars": 91,
+    "archived": false,
+    "pushed": "2026-10-18",
+    "desc": "DS5 Dongle OLED Edition: a Raspberry Pi Pico 2 W that connects a DualSense over Bluetooth while games see a wired one (adaptive triggers, HD haptics, speaker, mic). Optional OLED, desktop app, in-dongle calibration. Fork of awalol/DS5Dongle.",
+    "synced": "2026-10-29"
+  },
+  "tommargar/DualSense4Rockstar": {
+    "stars": 81,
+    "archived": false,
+    "pushed": "2024-11-15",
+    "desc": "Mods for GTA V and RDR 2 to add support for adaptive triggers to the DualSense controller via DSX ",
+    "synced": "2026-10-29"
+  },
+  "piereacy/FH-DualSense-Enhanced": {
+    "stars": 80,
+    "archived": false,
+    "pushed": "2026-10-08",
+    "desc": "Forza Horizon DualSense Controller Adaptive Vibration",
+    "synced": "2026-10-29"
+  },
+  "qingwa2009/MyBLEGamepad": {
+    "stars": 58,
+    "archived": false,
+    "pushed": "2026-03-12",
+    "desc": "用ESP32自制xbox+switchPro+DualSense 蓝牙手柄（Use ESP32 to create a xbox+SwitchPro+DualSense BLE Gamepad）",
+    "synced": "2026-10-29"
+  },
+  "CyberKomodo/CyberKomodo.DualSense": {
+    "stars": 58,
+    "archived": false,
+    "pushed": "2026-05-10",
+    "desc": "DualSense controller integration for Unity with support for USB and Bluetooth.",
     "synced": "2026-10-29"
   }
 }

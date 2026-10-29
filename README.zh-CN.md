@@ -2,15 +2,15 @@
 
 [English](README.md) · **简体中文**
 
-![Projects](https://img.shields.io/badge/projects-245-brightgreen)
-![Stars](https://img.shields.io/badge/stars-134018-yellow)
+![Projects](https://img.shields.io/badge/projects-259-brightgreen)
+![Stars](https://img.shields.io/badge/stars-137997-yellow)
 ![Updated](https://img.shields.io/badge/updated-2026-10-29-blue)
 
 > 收录 GitHub 上所有 **star 数 > 50** 的 PlayStation 5 相关项目，覆盖越狱、homebrew、模拟器、游戏包工具、Linux、串流与手柄生态。
 
-- 共 **245** 个项目，合计 **134,018** star
-- 数据同步于 2026-10-29，其中 13 个仓库已归档（🪦）
-- 表格按 star 数排序，star 数由 [GitHub API](https://docs.github.com/rest) 每周自动更新
+- 共 **259** 个项目，合计 **137,997** star
+- 数据同步于 2026-10-29，其中 13 个仓库已归档（🪦），14 条由脚本自动收录（🆕）
+- 表格按 star 数排序；GitHub Actions 每 24 小时自动采集新仓库、分类并刷新 star 数
 
 ## 目录
 
@@ -35,14 +35,14 @@
 
 | 项目 | Star | 说明 |
 | :--- | ---: | :--- |
-| [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) | 49,413 | 自动把 PS5 可执行文件移植到 Linux / Windows |
-| [KytyPS5/KytyPS5](https://github.com/KytyPS5/KytyPS5) | 10,094 | PS5 转译层，支持 Windows / Linux / macOS |
-| [sharpemu/sharpemu](https://github.com/sharpemu/sharpemu) | 6,484 | 实验性 PS5 模拟器 |
+| [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) | 49,426 | 自动把 PS5 可执行文件移植到 Linux / Windows |
+| [KytyPS5/KytyPS5](https://github.com/KytyPS5/KytyPS5) | 10,098 | PS5 转译层，支持 Windows / Linux / macOS |
+| [sharpemu/sharpemu](https://github.com/sharpemu/sharpemu) | 6,485 | 实验性 PS5 模拟器 |
 | [InoriRus/Kyty](https://github.com/InoriRus/Kyty) | 3,237 | PS4 / PS5 模拟器原版项目 |
 | [Jetsku/KytyPS5](https://github.com/Jetsku/KytyPS5) | 506 | KytyPS5 分支，合并着色器与渲染修复 |
 | [ymatrix1/PortPS5](https://github.com/ymatrix1/PortPS5) | 422 | 把解密后的 PS5 游戏重链接为 Windows 原生程序 |
 | [Force67/prosperity](https://github.com/Force67/prosperity) | 409 | PS4 / PS5 低层模拟（LLE）研究 |
-| [mpereiraesaa/prospero-win](https://github.com/mpereiraesaa/prospero-win) | 235 | PS5 homebrew 的 Windows 兼容运行时 |
+| [mpereiraesaa/prospero-win](https://github.com/mpereiraesaa/prospero-win) | 236 | PS5 homebrew 的 Windows 兼容运行时 |
 | [mattias800/prosper](https://github.com/mattias800/prosper) | 214 | 用户态 PS5 → PC 兼容层 |
 | [aarvsn/Ryty](https://github.com/aarvsn/Ryty) | 124 | PS4 / PS5 可执行文件移植工具（ELF / SPIR-V） |
 | [iStark/PS5PCEM](https://github.com/iStark/PS5PCEM) | 81 | PS5 PC 模拟器（实验） |
@@ -54,19 +54,19 @@
 
 | 项目 | Star | 说明 |
 | :--- | ---: | :--- |
-| [Swordpdf/PS5SX2](https://github.com/Swordpdf/PS5SX2) | 1,582 | PCSX2 的 PS5 移植，原生运行 PS2 游戏 |
+| [Swordpdf/PS5SX2](https://github.com/Swordpdf/PS5SX2) | 1,583 | PCSX2 的 PS5 移植，原生运行 PS2 游戏 |
 | [premohq/PS5-ECAM](https://github.com/premohq/PS5-ECAM) | 422 | 在 PS5 上跑 Wii U / 3DS / DS / Switch 游戏 |
-| [mihawk-99/PS5_RetroArch](https://github.com/mihawk-99/PS5_RetroArch) | 410 | PS5 版 RetroArch，35 个核心 / 44 个平台 |
+| [mihawk-99/PS5_RetroArch](https://github.com/mihawk-99/PS5_RetroArch) | 411 | PS5 版 RetroArch，35 个核心 / 44 个平台 |
 | [BrinooTk/PS5X360](https://github.com/BrinooTk/PS5X360) | 390 | 基于 Xenia Canary 的 Xbox 360 模拟器 |
 | [elripalda/Porpoise-Dolphin-Emulator-for-PS5](https://github.com/elripalda/Porpoise-Dolphin-Emulator-for-PS5) | 217 | Dolphin 移植，在 PS5 上玩 GameCube / Wii |
-| [holdmysocks/mcla-recomp](https://github.com/holdmysocks/mcla-recomp) | 208 | 《湾岸午夜俱乐部：洛杉矶》静态重编译，PC + PS5 |
+| [holdmysocks/mcla-recomp](https://github.com/holdmysocks/mcla-recomp) | 209 | 《湾岸午夜俱乐部：洛杉矶》静态重编译，PC + PS5 |
 | [ZiZc3/XPSemu](https://github.com/ZiZc3/XPSemu) | 203 | Xemu 移植，初代 Xbox 模拟器 |
 | [kamb205/KB-RPCS3](https://github.com/kamb205/KB-RPCS3) | 99 | RPCS3 的非官方 PS5 移植 |
 | [SynoPiia/PSXS5](https://github.com/SynoPiia/PSXS5) | 95 | PS1 模拟器，基于 PCSX-ReARMed |
 | [darkxex/SwanStationPS5](https://github.com/darkxex/SwanStationPS5) | 91 | PS1 模拟器，基于 SwanStation |
 | [lavavex/rpcs3-PS5](https://github.com/lavavex/rpcs3-PS5) | 85 | 把 RPCS3 编译成 PS5 原生应用（实验） |
-| [felipeAguiarCode/PS5EmuShell](https://github.com/felipeAguiarCode/PS5EmuShell) | 72 | PS5 上的模拟器 / 重编译游戏启动器 |
-| [aarvsn/PS5Droid](https://github.com/aarvsn/PS5Droid) | 70 | 在 PS5 上运行 Android 游戏 |
+| [felipeAguiarCode/PS5EmuShell](https://github.com/felipeAguiarCode/PS5EmuShell) | 73 | PS5 上的模拟器 / 重编译游戏启动器 |
+| [aarvsn/PS5Droid](https://github.com/aarvsn/PS5Droid) | 71 | 在 PS5 上运行 Android 游戏 |
 | [elripalda/gta4-ps5](https://github.com/elripalda/gta4-ps5) | 69 | GTA IV 三部曲在越狱 PS5 上原生运行 |
 | [MisterTemaki/snes9xPS5](https://github.com/MisterTemaki/snes9xPS5) | 62 | Snes9x 的 PS5 移植 |
 | [Phi1ow/mkwii-ps5](https://github.com/Phi1ow/mkwii-ps5) | 60 | 《马里奥赛车 Wii》静态重编译 |
@@ -78,17 +78,17 @@ WebKit / 内核 / 虚拟机管理程序漏洞，以及漏洞托管服务。
 
 | 项目 | Star | 说明 |
 | :--- | ---: | :--- |
-| [ntfargo/Relapse-Exploit](https://github.com/ntfargo/Relapse-Exploit) | 2,602 | PS5 7.00 – 13.60 的完整漏洞利用链 |
+| [ntfargo/Relapse-Exploit](https://github.com/ntfargo/Relapse-Exploit) | 2,601 | PS5 7.00 – 13.60 的完整漏洞利用链 |
 | [Gezine/Y2JB](https://github.com/Gezine/Y2JB) | 1,613 | 利用 PS5 YouTube 应用实现用户态代码执行 |
 | [Al-Azif/ps4-exploit-host](https://github.com/Al-Azif/ps4-exploit-host) | 1,217 | 一键漏洞托管服务（PS4 / PS5） |
 | [Cryptogenic/PS5-IPV6-Kernel-Exploit](https://github.com/Cryptogenic/PS5-IPV6-Kernel-Exploit) | 930 | WebKit 内核漏洞，可任意读写 |
 | [PS5Dev/Byepervisor-Reborn](https://github.com/PS5Dev/Byepervisor-Reborn) | 520 | PS5 虚拟机管理程序漏洞利用（复活版） |
-| [drakmor/nanoDNS](https://github.com/drakmor/nanoDNS) | 494 | PS4 / PS5 的 DNS 代理服务器 |
-| [n0llptr/remote_lua_loader](https://github.com/n0llptr/remote_lua_loader) | 454 | 远程 Lua 载荷加载器 |
+| [drakmor/nanoDNS](https://github.com/drakmor/nanoDNS) | 496 | PS4 / PS5 的 DNS 代理服务器 |
+| [n0llptr/remote_lua_loader](https://github.com/n0llptr/remote_lua_loader) | 453 | 远程 Lua 载荷加载器 |
 | [Gezine/BD-JB5](https://github.com/Gezine/BD-JB5) | 426 | PS5 蓝光 BD-JB 漏洞 |
 | [ZigZagBoi1/PS5-14.10-Research](https://github.com/ZigZagBoi1/PS5-14.10-Research) | 393 | 14.10 固件的开放研究：Lua 用户态实验 |
 | [PS5Dev/Byepervisor](https://github.com/PS5Dev/Byepervisor) | 391 | 1.xx – 2.xx 固件的 HV 漏洞 |
-| [pastawithpesto/PS5-14.10-Jailbreak-Research](https://github.com/pastawithpesto/PS5-14.10-Jailbreak-Research) | 342 | 14.10 固件 WebKit 越狱研究 |
+| [pastawithpesto/PS5-14.10-Jailbreak-Research](https://github.com/pastawithpesto/PS5-14.10-Jailbreak-Research) | 343 | 14.10 固件 WebKit 越狱研究 |
 | [Gezine/Luac0re](https://github.com/Gezine/Luac0re) | 332 | mast1c0re 变体，用 Lua 简化漏洞开发 |
 | [ntfargo/CSSFontFace-Exploit](https://github.com/ntfargo/CSSFontFace-Exploit) | 325 | WebKit CSSFontFace UAF（PS4 / PS5） |
 | [Viktorious-x/ps5-bdjb-modified-ISOs](https://github.com/Viktorious-x/ps5-bdjb-modified-ISOs) | 293 | 用于 BD-JB 漏洞的修改版 ISO |
@@ -118,14 +118,14 @@ WebKit / 内核 / 虚拟机管理程序漏洞，以及漏洞托管服务。
 
 | 项目 | Star | 说明 |
 | :--- | ---: | :--- |
-| [itsPLK/ps5-webkit-autoloader](https://github.com/itsPLK/ps5-webkit-autoloader) | 1,286 | 越狱后自动注入载荷的加载器 |
-| [EchoStretch/kstuff-lite](https://github.com/EchoStretch/kstuff-lite) | 842 | kstuff 内核补丁轻量版 |
-| [etaHEN/etaHEN](https://github.com/etaHEN/etaHEN) | 826 | 一体化 HEN 载荷 |
+| [itsPLK/ps5-webkit-autoloader](https://github.com/itsPLK/ps5-webkit-autoloader) | 1,288 | 越狱后自动注入载荷的加载器 |
+| [EchoStretch/kstuff-lite](https://github.com/EchoStretch/kstuff-lite) | 843 | kstuff 内核补丁轻量版 |
+| [etaHEN/etaHEN](https://github.com/etaHEN/etaHEN) | 827 | 一体化 HEN 载荷 |
 | [itsPLK/ps5-payload-manager](https://github.com/itsPLK/ps5-payload-manager) | 681 | Web 面板管理、导入与自动更新载荷 |
 | [aydencharles/onionHEN](https://github.com/aydencharles/onionHEN) | 479 | HEN 激活器 |
 | [ps5-payload-dev/sdk](https://github.com/ps5-payload-dev/sdk) | 267 | 基于动态链接的 PS5 载荷 SDK |
 | [Michele-M-Media/HYPERHEN](https://github.com/Michele-M-Media/HYPERHEN) | 242 | HEN 实现 |
-| [ps5-payload-dev/websrv](https://github.com/ps5-payload-dev/websrv) | 219 | 8080 端口的 Web 服务器载荷 |
+| [ps5-payload-dev/websrv](https://github.com/ps5-payload-dev/websrv) | 220 | 8080 端口的 Web 服务器载荷 |
 | [PS5Dev/PS5SDK](https://github.com/PS5Dev/PS5SDK) | 218 | 构建与越狱加载器兼容的载荷 SDK |
 | [ps5-payload-dev/ftpsrv](https://github.com/ps5-payload-dev/ftpsrv) | 197 | FTP 服务器载荷（PS4 / PS5） |
 | [itsPLK/ps5-payloads-mirror](https://github.com/itsPLK/ps5-payloads-mirror) | 185 | 常用载荷镜像 |
@@ -133,15 +133,17 @@ WebKit / 内核 / 虚拟机管理程序漏洞，以及漏洞托管服务。
 | [ps5-payload-dev/elfldr](https://github.com/ps5-payload-dev/elfldr) | 148 | 9021 端口接收 ELF 载荷 |
 | [Pharaoh2k/ps5debug-NG](https://github.com/Pharaoh2k/ps5debug-NG) | 121 | ps5debug 调试器载荷（TCP 协议） |
 | [cragson/ps5-hen](https://github.com/cragson/ps5-hen) | 104 | 支持 1.00 – 4.51 的 HEN |
+| [xvvulcanvx/PS5-TabShifter](https://github.com/xvvulcanvx/PS5-TabShifter) 🆕 | 102 | 主机端载荷：在“游戏 / 媒体”标签间移动应用，隐藏离线 PSN 冗余（5.00 – 13.60） |
 | [ArkSama/PS5-Lapy-JB-Daemon](https://github.com/ArkSama/PS5-Lapy-JB-Daemon) | 91 | 独立越狱守护进程，兼容 etaHEN API |
 | [aydencharles/kylin-core-release](https://github.com/aydencharles/kylin-core-release) | 90 | kylin 内核补丁发行版 |
 | [GronedWaffel/etahen-11.00-13.60](https://github.com/GronedWaffel/etahen-11.00-13.60) | 87 | etaHEN 2.5B 的统一移植（11.00 – 13.60） |
 | [ps5-payload-dev/offact](https://github.com/ps5-payload-dev/offact) | 85 | 离线账号激活 |
+| [lvndry/ps5-firmware-pin](https://github.com/lvndry/ps5-firmware-pin) | 74 | 锁定固件版本，阻止强制升级 |
 | [buzzer-re/PS5_kldload](https://github.com/buzzer-re/PS5_kldload) | 73 | 仿 FreeBSD kldload 的内核模块加载器 |
-| [lvndry/ps5-firmware-pin](https://github.com/lvndry/ps5-firmware-pin) | 73 | 锁定固件版本，阻止强制升级 |
 | [ps5-payload-dev/fetchpkg](https://github.com/ps5-payload-dev/fetchpkg) | 68 | 按 manifest 抓取游戏更新包 |
+| [drakmor/pgo_stub](https://github.com/drakmor/pgo_stub) 🆕 | 59 | 替换 PS5 PlayGo 运行时库的轻量模块 |
+| [EchoStretch/kstuff-toggle](https://github.com/EchoStretch/kstuff-toggle) | 52 | kstuff 内核补丁开关 |
 | [cryonumb/elfloader](https://github.com/cryonumb/elfloader) | 51 | 配合 ps5-jar-loader 的 ELF 加载器 |
-| [EchoStretch/kstuff-toggle](https://github.com/EchoStretch/kstuff-toggle) | 51 | kstuff 内核补丁开关 |
 
 ### 📦 游戏包 / fPKG / 压缩
 
@@ -186,13 +188,13 @@ PKG、PFS、PUP、SELF 的解析、打包与压缩工具。
 | [pegasus-ps5/pegasus-dl](https://github.com/pegasus-ps5/pegasus-dl) | 445 | 在 PS5 上直连下载游戏包 |
 | [deox1111/ps5-library](https://github.com/deox1111/ps5-library) | 289 | 越狱 PS5 游戏库：选游戏即下载安装 |
 | [notmaj0r/ProsperoMgr](https://github.com/notmaj0r/ProsperoMgr) | 273 | PS5 全能管理器 |
-| [elripalda/RecompStore](https://github.com/elripalda/RecompStore) | 270 | 重编译 homebrew 应用商店 |
-| [owendswang/ps5-web-file-manager](https://github.com/owendswang/ps5-web-file-manager) | 262 | 带 Web UI 的文件管理器 |
+| [elripalda/RecompStore](https://github.com/elripalda/RecompStore) | 272 | 重编译 homebrew 应用商店 |
+| [owendswang/ps5-web-file-manager](https://github.com/owendswang/ps5-web-file-manager) | 263 | 带 Web UI 的文件管理器 |
 | [itsPLK/ps5-pkg-manager](https://github.com/itsPLK/ps5-pkg-manager) | 235 | 简洁的包管理器 |
-| [JVK3R/JobeesLair](https://github.com/JVK3R/JobeesLair) | 192 | 内容中立的 homebrew 索引与媒体框架 |
+| [JVK3R/JobeesLair](https://github.com/JVK3R/JobeesLair) | 193 | 内容中立的 homebrew 索引与媒体框架 |
 | [EchoStretch/ps5-app-dumper](https://github.com/EchoStretch/ps5-app-dumper) | 186 | 应用导出（dump）工具 |
 | [Loopayeh/pkg-sender](https://github.com/Loopayeh/pkg-sender) | 186 | 局域网安装 PS4 / PS5 包 |
-| [Loopayeh/pkg-viewer](https://github.com/Loopayeh/pkg-viewer) | 180 | 查看 PS3 / PS4 / PS5 包信息与封面 |
+| [Loopayeh/pkg-viewer](https://github.com/Loopayeh/pkg-viewer) | 181 | 查看 PS3 / PS4 / PS5 包信息与封面 |
 | [gasb07/ps4mount](https://github.com/gasb07/ps4mount) | 179 | U 盘中的游戏包免安装直接挂载 |
 | [earthonion/garlic-savemgr](https://github.com/earthonion/garlic-savemgr) | 177 | 本地存档管理器 |
 | [NookieAI/PS5-Game-Scraper](https://github.com/NookieAI/PS5-Game-Scraper) | 158 | 浏览、搜索与下载 PS5 游戏 |
@@ -204,11 +206,12 @@ PKG、PFS、PUP、SELF 的解析、打包与压缩工具。
 | [nexgen999/PS5-Repository-List](https://github.com/nexgen999/PS5-Repository-List) | 104 | PS5 软件仓库列表 |
 | [s0liton/RommPS](https://github.com/s0liton/RommPS) | 101 | RomM 服务器客户端 |
 | [nexgen999/PS5-Super-PLDMGR-Auto-Updater](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater) | 99 | PLDMGR 自动更新工具 |
-| [EchoStretch/dump_installer](https://github.com/EchoStretch/dump_installer) | 91 | dump 安装器 |
+| [EchoStretch/dump_installer](https://github.com/EchoStretch/dump_installer) | 92 | dump 安装器 |
 | [ChillQuant/direct-stream-ps5](https://github.com/ChillQuant/direct-stream-ps5) | 79 | 并行下载流引擎与本地 Web 面板 |
+| [OptiTronOffical/OptiStore](https://github.com/OptiTronOffical/OptiStore) 🆕 | 75 | PS4 / PS5 游戏包库浏览前端 |
 | [ItsBlurf/BFpilot](https://github.com/ItsBlurf/BFpilot) | 66 | 浏览器文件管理器 |
 | [holdmysocks/ps5-tailscale](https://github.com/holdmysocks/ps5-tailscale) | 63 | Tailscale 组网，远程访问主机 |
-| [darkxex/ps5-homebrew-catalog](https://github.com/darkxex/ps5-homebrew-catalog) | 60 | homebrew 目录数据 |
+| [darkxex/ps5-homebrew-catalog](https://github.com/darkxex/ps5-homebrew-catalog) | 61 | homebrew 目录数据 |
 | [heni0xyz/PS5Save](https://github.com/heni0xyz/PS5Save) | 51 | U 盘存档备份工具 |
 | [IRONB0SS/PSXhub](https://github.com/IRONB0SS/PSXhub) | 51 | 局域网传输零售 PKG |
 
@@ -218,12 +221,12 @@ PKG、PFS、PUP、SELF 的解析、打包与压缩工具。
 
 | 项目 | Star | 说明 |
 | :--- | ---: | :--- |
-| [illusionyy/PS-Game-Patch](https://github.com/illusionyy/PS-Game-Patch) | 406 | PS4 / PS5 游戏补丁集 |
-| [TeeKay87/HEN-Cheats-Collection](https://github.com/TeeKay87/HEN-Cheats-Collection) | 286 | PS4 / PS5 作弊码合集 |
+| [illusionyy/PS-Game-Patch](https://github.com/illusionyy/PS-Game-Patch) | 407 | PS4 / PS5 游戏补丁集 |
+| [TeeKay87/HEN-Cheats-Collection](https://github.com/TeeKay87/HEN-Cheats-Collection) | 287 | PS4 / PS5 作弊码合集 |
 | [BestPig/BackPork](https://github.com/BestPig/BackPork) | 270 | 把系统库侧加载进 PS5 游戏 |
-| [notmaj0r/CheatRunner](https://github.com/notmaj0r/CheatRunner) | 268 | 网页版 PS5 金手指加载器 |
+| [notmaj0r/CheatRunner](https://github.com/notmaj0r/CheatRunner) | 269 | 网页版 PS5 金手指加载器 |
 | [knutwurst/ps5-patchdl](https://github.com/knutwurst/ps5-patchdl) | 203 | 从任意浏览器下载官方游戏更新 |
-| [illusionyy/ps-patch-system](https://github.com/illusionyy/ps-patch-system) | 196 | PS4 / PS5 应用补丁系统 |
+| [illusionyy/ps-patch-system](https://github.com/illusionyy/ps-patch-system) | 195 | PS4 / PS5 应用补丁系统 |
 | [gasb07/NeoEnabler](https://github.com/gasb07/NeoEnabler) | 171 | 让缺少 PS4 支持的游戏也能打补丁 |
 | [eladharels/ps5-60FPS](https://github.com/eladharels/ps5-60FPS) | 112 | 60FPS 解锁补丁 |
 | [tsuramatsu1/apr-emu-updater](https://github.com/tsuramatsu1/apr-emu-updater) | 108 | APR Emu 的网页更新器 |
@@ -241,9 +244,9 @@ PKG、PFS、PUP、SELF 的解析、打包与压缩工具。
 | [ps5-linux/ps5-linux-loader](https://github.com/ps5-linux/ps5-linux-loader) | 474 | 利用 HV 漏洞运行自定义引导的 Linux 载荷 |
 | [akandr/bc250](https://github.com/akandr/bc250) | 416 | BC-250 上的 Ollama + Vulkan 推理配置 |
 | [mihawk-99/PS5_MihawkOS](https://github.com/mihawk-99/PS5_MihawkOS) | 312 | Windows 风格的 PS5 homebrew 系统 |
-| [soniciso1/ps5-linux-loader](https://github.com/soniciso1/ps5-linux-loader) | 278 | 支持 13.60 / PS5 Pro 的 Linux 引导分支 |
+| [soniciso1/ps5-linux-loader](https://github.com/soniciso1/ps5-linux-loader) | 279 | 支持 13.60 / PS5 Pro 的 Linux 引导分支 |
 | [pLabs5/pLinux5-NG](https://github.com/pLabs5/pLinux5-NG) 🪦 | 196 | 面向 8.xx – 13.xx 高版本固件的 Linux |
-| [VivaLaVent/ps5-bazzite-deck](https://github.com/VivaLaVent/ps5-bazzite-deck) | 151 | PS5 上的 Bazzite 游戏模式镜像 |
+| [VivaLaVent/ps5-bazzite-deck](https://github.com/VivaLaVent/ps5-bazzite-deck) | 159 | PS5 上的 Bazzite 游戏模式镜像 |
 | [mihawk-99/PS5_Vulkan](https://github.com/mihawk-99/PS5_Vulkan) | 115 | 基于 Mesa / RADV 的 PS5 原生 Vulkan 驱动 |
 | [ps5-linux/ps5-linux-image](https://github.com/ps5-linux/ps5-linux-image) | 96 | Linux 镜像构建器 |
 | [ps5-linux/ps5-linux-patches](https://github.com/ps5-linux/ps5-linux-patches) | 53 | 在 PS5 上运行所需的 Linux 补丁 |
@@ -255,6 +258,7 @@ PS5 远程游玩客户端、推流与远程控制。
 | 项目 | Star | 说明 |
 | :--- | ---: | :--- |
 | [chiaki-ng/chiaki-ng](https://github.com/chiaki-ng/chiaki-ng) | 2,918 | 新一代开源 PS Remote Play 客户端 |
+| [leolobato/playden-ps5](https://github.com/leolobato/playden-ps5) 🆕 | 862 | 在越狱 PS5 上串流 Steam 库里的 Windows 游戏 |
 | [Geocld/PeaSyo](https://github.com/Geocld/PeaSyo) | 383 | Android 开源远程游玩客户端 |
 | [chiaki-ng/akira](https://github.com/chiaki-ng/akira) | 240 | Switch 上的 PS Remote Play 界面（基于 chiaki-ng） |
 | [dhleong/playactor](https://github.com/dhleong/playactor) | 157 | 与 PlayStation 设备交互的工具 |
@@ -264,7 +268,7 @@ PS5 远程游玩客户端、推流与远程控制。
 | [atameric/ps5-portal-high-bitrate](https://github.com/atameric/ps5-portal-high-bitrate) | 87 | PlayStation Portal 高码率实验工具 |
 | [Axixi2233/chiaki-android](https://github.com/Axixi2233/chiaki-android) | 81 | Chiaki Android 分支 |
 | [ywnico/vitaki-fork](https://github.com/ywnico/vitaki-fork) | 78 | Chiaki 的 PS Vita 分支 |
-| [cy33hc/ps5-ezremote-client](https://github.com/cy33hc/ps5-ezremote-client) | 77 | 简化的远程游玩客户端 |
+| [cy33hc/ps5-ezremote-client](https://github.com/cy33hc/ps5-ezremote-client) | 78 | 简化的远程游玩客户端 |
 | [Geocld/PeaSyo4Desk](https://github.com/Geocld/PeaSyo4Desk) | 71 | PeaSyo 桌面客户端 |
 | [thiagomiranda3/PlaystationMacro](https://github.com/thiagomiranda3/PlaystationMacro) | 68 | PS4 / PS5 远程游玩自动化工具 |
 | [ktnrg45/pyremoteplay](https://github.com/ktnrg45/pyremoteplay) 🪦 | 56 | PlayStation Remote Play 的 Python API |
@@ -306,9 +310,11 @@ PS5 手柄的驱动、固件、自适应扳机与跨平台工具。
 
 | 项目 | Star | 说明 |
 | :--- | ---: | :--- |
-| [awalol/DS5Dongle](https://github.com/awalol/DS5Dongle) | 2,977 | 把 Pico 2 W 变成 DualSense 无线接收器 |
+| [awalol/DS5Dongle](https://github.com/awalol/DS5Dongle) | 2,976 | 把 Pico 2 W 变成 DualSense 无线接收器 |
+| [Paliverse/DualSenseX](https://github.com/Paliverse/DualSenseX) 🆕 | 1,650 | PC 端连接 DualSense，启用自适应扳机并模拟 Xbox 360 / DualShock 4 手柄 |
 | [JibbSmart/JoyShockMapper](https://github.com/JibbSmart/JoyShockMapper) | 876 | 用手柄当鼠标键盘，支持 DualSense 体感 |
 | [daidr/dualsense-tester](https://github.com/daidr/dualsense-tester) | 586 | 浏览器里测试 DualSense / Edge |
+| [HamzaYslmn/Forza-Horizon-DualSense-Python](https://github.com/HamzaYslmn/Forza-Horizon-DualSense-Python) 🆕 | 466 | 《极限竞速：地平线》系列的 DualSense 自适应扳机脚本 |
 | [nowrep/dualsensectl](https://github.com/nowrep/dualsensectl) | 451 | Linux 下的 DualSense 控制工具 |
 | [WujekFoliarz/DualSenseY-v2](https://github.com/WujekFoliarz/DualSenseY-v2) | 449 | DualSense 增强工具（自适应扳机 / 模拟 Xbox 手柄） |
 | [Ohjurot/DualSense-Windows](https://github.com/Ohjurot/DualSense-Windows) | 442 | DualSense 的 Windows API |
@@ -317,6 +323,7 @@ PS5 手柄的驱动、固件、自适应扳机与跨平台工具。
 | [JibbSmart/JoyShockLibrary](https://github.com/JibbSmart/JoyShockLibrary) | 317 | 读取 DualSense / DS4 / JoyCon 输入 |
 | [ds4windowsapp/DS4Windows](https://github.com/ds4windowsapp/DS4Windows) | 224 | 手柄输入映射工具，支持 DualSense |
 | [sqlCRT/ds5dongle-bl618-opensource](https://github.com/sqlCRT/ds5dongle-bl618-opensource) | 217 | 基于 BL616/BL618 的 DualSense 无线适配器 |
+| [ReynArts/ApexSenseBridge](https://github.com/ReynArts/ApexSenseBridge) 🆕 | 215 | 把 PS5 DualSense 自适应扳机 / 触感与触摸板带给飞智 APEX 手柄（Windows） |
 | [egormanga/SAxense](https://github.com/egormanga/SAxense) | 200 | 蓝牙下的 DualSense 触觉反馈 PoC |
 | [rodneybakiskan/ps5-esp32](https://github.com/rodneybakiskan/ps5-esp32) | 195 | 用 ESP32 接收 PS5 手柄 |
 | [r57zone/DSAdvance](https://github.com/r57zone/DSAdvance) | 195 | 把 DualSense 等手柄模拟成 Xbox 手柄 |
@@ -327,15 +334,22 @@ PS5 手柄的驱动、固件、自适应扳机与跨平台工具。
 | [nondebug/dualsense](https://github.com/nondebug/dualsense) | 122 | DualSense 手柄的技术资料汇总 |
 | [josealissonbr/DualSenseAT](https://github.com/josealissonbr/DualSenseAT) 🪦 | 118 | 为更多游戏补上自适应扳机 |
 | [BananaWorks07/trigger-control](https://github.com/BananaWorks07/trigger-control) | 94 | 在 Linux / Windows 上控制扳机 |
+| [MarcelineVPQ/DS5Dongle-OLED-Edition](https://github.com/MarcelineVPQ/DS5Dongle-OLED-Edition) 🆕 | 91 | Pico 2 W 版 DS5 Dongle：蓝牙连接 DualSense 并伪装成有线（含 OLED 与校准） |
 | [xzn/proton-ds5-haptic](https://github.com/xzn/proton-ds5-haptic) | 85 | Proton 中的 DualSense 触觉补丁 |
 | [yesbotics/dualsense-controller-python](https://github.com/yesbotics/dualsense-controller-python) | 84 | DualSense 的 Python 库 |
+| [tommargar/DualSense4Rockstar](https://github.com/tommargar/DualSense4Rockstar) 🆕 | 81 | GTA V / RDR 2 的 DualSense 自适应扳机 Mod（基于 DSX） |
 | [artzox/DS5Dongle-Studio](https://github.com/artzox/DS5Dongle-Studio) | 80 | 在 PC 上获得无线触觉反馈 |
+| [piereacy/FH-DualSense-Enhanced](https://github.com/piereacy/FH-DualSense-Enhanced) 🆕 | 80 | 《极限竞速：地平线》的 DualSense 触感增强 |
 | [Paliverse/DualSense-List-of-Firmwares](https://github.com/Paliverse/DualSense-List-of-Firmwares) | 79 | DualSense 官方固件合集 |
 | [rafaelvaloto/Dualsense-Multiplatform](https://github.com/rafaelvaloto/Dualsense-Multiplatform) | 72 | 跨平台 Sony 手柄 C++ 库 |
 | [marcowindt/ds4macos](https://github.com/marcowindt/ds4macos) | 72 | macOS 上的 DSU 手柄服务 |
 | [Mutcholoko/Haptic-Feedback-Linux](https://github.com/Mutcholoko/Haptic-Feedback-Linux) 🪦 | 67 | Linux 下开启 DualSense 触觉反馈指南 |
+| [diegobarbosaa/OmniPad-PS5](https://github.com/diegobarbosaa/OmniPad-PS5) 🆕 | 66 | PS5 通用手柄引擎与 Web 控制面板（FW 7.00 – 13.60） |
 | [kungaa/DS5-Linux-Bridge](https://github.com/kungaa/DS5-Linux-Bridge) | 64 | Linux 上基于树莓派的 USB 转蓝牙桥 |
+| [LikeARealG/ETS2_PS5_DualSense](https://github.com/LikeARealG/ETS2_PS5_DualSense) 🆕 | 64 | 让《欧洲卡车模拟 2》用上 PS5 手柄的触感反馈 |
 | [nsfm/dualsense-ts](https://github.com/nsfm/dualsense-ts) | 58 | DualSense / Access 的 TypeScript 接口 |
+| [qingwa2009/MyBLEGamepad](https://github.com/qingwa2009/MyBLEGamepad) 🆕 | 58 | 用 ESP32 自制可模拟 Xbox / Switch Pro / DualSense 的蓝牙手柄 |
+| [CyberKomodo/CyberKomodo.DualSense](https://github.com/CyberKomodo/CyberKomodo.DualSense) 🆕 | 58 | Unity 的 DualSense 手柄接入插件（USB 与蓝牙） |
 | [HamzaYslmn/esp-ps5](https://github.com/HamzaYslmn/esp-ps5) | 57 | ESP32 下的 DualSense 库 |
 | [MaximumFreak/dsz](https://github.com/MaximumFreak/dsz) | 56 | Windows 上的 DualSense 轻量伴侣工具 |
 | [DualSenseClient/DualSenseClient](https://github.com/DualSenseClient/DualSenseClient) | 53 | Windows / Linux 上解锁完整 DualSense 体验 |
@@ -347,7 +361,7 @@ PS5 手柄的驱动、固件、自适应扳机与跨平台工具。
 | 项目 | Star | 说明 |
 | :--- | ---: | :--- |
 | [cobanov/PS5LM](https://github.com/cobanov/PS5LM) | 738 | 在越狱 PS5 上跑 llama.cpp 本地大模型 |
-| [abhi245y/PS5LM-Plus](https://github.com/abhi245y/PS5LM-Plus) | 480 | PS5 本地大模型运行方案的扩展版 |
+| [abhi245y/PS5LM-Plus](https://github.com/abhi245y/PS5LM-Plus) | 481 | PS5 本地大模型运行方案的扩展版 |
 | [mikeroyal/Game-Console-Dev-Guide](https://github.com/mikeroyal/Game-Console-Dev-Guide) | 359 | 面向 PS5 等主机的游戏开发指南 |
 | [ZiZc3/LiveShell](https://github.com/ZiZc3/LiveShell) | 191 | PS5 主界面动态背景 |
 | [X-F1REBALL-X/HearBridge-PS5](https://github.com/X-F1REBALL-X/HearBridge-PS5) | 181 | 让越狱 PS5 的游戏音频输出到任意蓝牙耳机 |
@@ -368,7 +382,7 @@ PS5 手柄的驱动、固件、自适应扳机与跨平台工具。
 
 | 项目 | Star | 说明 |
 | :--- | ---: | :--- |
-| [camtheperson/get-my-ps5](https://github.com/camtheperson/get-my-ps5) | 352 | 命令行抢购 PS5（已过时） |
+| [camtheperson/get-my-ps5](https://github.com/camtheperson/get-my-ps5) | 353 | 命令行抢购 PS5（已过时） |
 | [dkkocab/WebSiteBot_PS5](https://github.com/dkkocab/WebSiteBot_PS5) | 347 | Walmart 抢购脚本（已过时） |
 | [eg9y/PS5bot](https://github.com/eg9y/PS5bot) 🪦 | 236 | 库存监控与自动下单（已过时） |
 
@@ -379,6 +393,7 @@ PS5 手柄的驱动、固件、自适应扳机与跨平台工具。
 - 仅在 README 中顺带提到 PS5 的项目（通用代理工具、通用模拟器、通用购物机器人等）不收。
 - 同一项目的普通 fork 与换皮版不收，除非维护状况明显更好。
 - 抢购脚本保留在独立分区，仅作历史记录。
+- 标注 🆕 的条目由脚本自动采集并分类，欢迎提 PR 修正其分类与描述。
 
 ## 免责声明
 
@@ -394,9 +409,11 @@ PS5 手柄的驱动、固件、自适应扳机与跨平台工具。
 
 ## 更新
 
+[GitHub Action](.github/workflows/update.yml) 每 24 小时执行一次下面两个脚本并自动提交，让列表自行保持更新。本地手动执行：
+
 ```bash
-node scripts/update.mjs            # 刷新 star 数与两个 README
-node scripts/update.mjs --discover # 额外列出尚未收录的候选仓库
+node scripts/collect.mjs  # 采集新仓库并自动分类
+node scripts/update.mjs   # 刷新 star 数与两个 README
 ```
 
 ## 许可证

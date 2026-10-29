@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// 拉取 GitHub 元数据并重新生成 README。用法：node scripts/update.mjs [--discover]
+// 拉取 GitHub 元数据并重新生成 README。用法：node scripts/update.mjs
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
@@ -56,10 +56,10 @@ if (missing.length) {
 }
 
 const enText = JSON.parse(readFileSync(join(dataDir, 'en.json'), 'utf8'));
-for (const p of fetched) p.en = enText[p.repo] ?? p.desc ?? '';
-const noEn = fetched.filter((p) => !enText[p.repo]).map((p) => p.repo);
-if (noEn.length) {
-  console.error(`⚠️  缺少英文简介（已回退为仓库描述）：\n  ${noEn.join('\n  ')}`);
+for (const p of fetched) p.en = p.en || enText[p.repo] || p.desc || '';
+const untranslated = fetched.filter((p) => !p.zh || p.zh === p.en).map((p) => p.repo);
+if (untranslated.length) {
+  console.error(`⚠️  ${untranslated.length} 条自动收录条目还没有中文简介：\n  ${untranslated.join('\n  ')}`);
 }
 
 const lowStars = fetched.filter((p) => p.stars <= MIN_STARS).sort((a, b) => a.stars - b.stars);
@@ -70,28 +70,6 @@ if (lowStars.length) {
 const now = new Date();
 const stars = Object.fromEntries(fetched.map((p) => [p.repo, { stars: p.stars, archived: p.archived, pushed: p.pushed, desc: p.desc, synced: now.toISOString().slice(0, 10) }]));
 writeFileSync(cachePath, JSON.stringify(stars, null, 2) + '\n');
-
-if (process.argv.includes('--discover')) {
-  const queries = ['ps5 stars:>50', 'topic:ps5 stars:>50', 'playstation5 stars:>50', 'topic:playstation-5 stars:>50'];
-  const known = new Set(catalog.projects.map((p) => p.repo.toLowerCase()));
-  const found = new Map();
-  for (const q of queries) {
-    for (let page = 1; page <= 2; page++) {
-      const res = await fetch(`https://api.github.com/search/repositories?q=${encodeURIComponent(q)}&per_page=100&page=${page}`, { headers });
-      if (!res.ok) { console.error(`搜索失败：${q} (${res.status})`); break; }
-      const json = await res.json();
-      for (const item of json.items ?? []) {
-        if (item.stargazers_count > MIN_STARS && !known.has(item.full_name.toLowerCase())) found.set(item.full_name, item);
-      }
-      if ((json.items?.length ?? 0) < 100) break;
-      await new Promise((r) => setTimeout(r, 2000));
-    }
-    await new Promise((r) => setTimeout(r, 2000));
-  }
-  const candidates = [...found.values()].sort((a, b) => b.stargazers_count - a.stargazers_count);
-  console.log(`\n未被收录的候选仓库（${candidates.length}）：`);
-  for (const c of candidates) console.log(`${String(c.stargazers_count).padStart(6)}  ${c.full_name}  ${(c.description ?? '').slice(0, 80)}`);
-}
 
 const fmt = (n) => n.toLocaleString('en-US');
 const totalStars = fetched.reduce((s, p) => s + p.stars, 0);
@@ -124,7 +102,7 @@ const sections = (lang) =>
       const rows = sorted
         .filter((p) => p.cat === c.key)
         .map((p) => {
-          const name = `[${p.repo}](https://github.com/${p.repo})${p.archived ? ' 🪦' : ''}`;
+          const name = `[${p.repo}](https://github.com/${p.repo})${p.archived ? ' 🪦' : ''}${p.auto ? ' 🆕' : ''}`;
           return `| ${name} | ${fmt(p.stars)} | ${lang === 'zh' ? p.zh : p.en} |`;
         })
         .join('\n');
@@ -133,6 +111,7 @@ const sections = (lang) =>
     .join('\n\n');
 
 const archivedCount = fetched.filter((p) => p.archived).length;
+const autoCount = fetched.filter((p) => p.auto).length;
 const date = now.toISOString().slice(0, 10);
 const LANG_LINE = {
   en: '**English** · [简体中文](README.zh-CN.md)',
@@ -145,8 +124,8 @@ const text = {
     intro: `> Every GitHub project related to the PlayStation 5 with **more than ${MIN_STARS} stars** — jailbreak, homebrew, emulators, packaging tools, Linux, streaming and controller ecosystem.`,
     stats: [
       `**${fetched.length}** projects · **${fmt(totalStars)}** stars in total`,
-      `Data synced on ${date}${archivedCount ? ` · ${archivedCount} archived repositories (🪦)` : ''}`,
-      `Sorted by stars, refreshed weekly via the [GitHub API](https://docs.github.com/rest)`
+      `Data synced on ${date}${archivedCount ? ` · ${archivedCount} archived repositories (🪦)` : ''}${autoCount ? ` · ${autoCount} auto-collected entries (🆕)` : ''}`,
+      `Sorted by stars; new repositories are harvested and classified, and star counts are refreshed, every 24 hours by GitHub Actions`
     ],
     tocTitle: 'Contents',
     criteriaTitle: 'Inclusion criteria',
@@ -155,7 +134,8 @@ const text = {
       `More than ${MIN_STARS} stars and publicly accessible.`,
       'Projects that merely mention PS5 in their README (generic proxies, generic emulators, generic shopping bots) are excluded.',
       'Plain forks and rebrands of an already listed project are excluded unless they are clearly better maintained.',
-      'Launch-era stock bots are kept in a separate section for historical reference.'
+      'Launch-era stock bots are kept in a separate section for historical reference.',
+      'Entries marked 🆕 were harvested and classified automatically; a pull request correcting their section or wording is always welcome.'
     ],
     disclaimerTitle: 'Disclaimer',
     disclaimer:
@@ -168,7 +148,9 @@ const text = {
       'Open the PR.'
     ],
     updateTitle: 'Updating',
-    updateComments: ['# refresh stars and both READMEs', '# also list candidates that are not listed yet'],
+    updateIntro:
+      'A [GitHub Action](.github/workflows/update.yml) runs both scripts every 24 hours and commits the result, so the list stays current on its own. To do it locally:',
+    updateComments: ['# collect new projects and auto-classify them', '# refresh stars and both READMEs'],
     licenseTitle: 'License'
   },
   zh: {
@@ -176,8 +158,8 @@ const text = {
     intro: `> 收录 GitHub 上所有 **star 数 > ${MIN_STARS}** 的 PlayStation 5 相关项目，覆盖越狱、homebrew、模拟器、游戏包工具、Linux、串流与手柄生态。`,
     stats: [
       `共 **${fetched.length}** 个项目，合计 **${fmt(totalStars)}** star`,
-      `数据同步于 ${date}${archivedCount ? `，其中 ${archivedCount} 个仓库已归档（🪦）` : ''}`,
-      `表格按 star 数排序，star 数由 [GitHub API](https://docs.github.com/rest) 每周自动更新`
+      `数据同步于 ${date}${archivedCount ? `，其中 ${archivedCount} 个仓库已归档（🪦）` : ''}${autoCount ? `，${autoCount} 条由脚本自动收录（🆕）` : ''}`,
+      `表格按 star 数排序；GitHub Actions 每 24 小时自动采集新仓库、分类并刷新 star 数`
     ],
     tocTitle: '目录',
     criteriaTitle: '收录标准',
@@ -186,7 +168,8 @@ const text = {
       `star 数 > ${MIN_STARS}，仓库公开可访问。`,
       '仅在 README 中顺带提到 PS5 的项目（通用代理工具、通用模拟器、通用购物机器人等）不收。',
       '同一项目的普通 fork 与换皮版不收，除非维护状况明显更好。',
-      '抢购脚本保留在独立分区，仅作历史记录。'
+      '抢购脚本保留在独立分区，仅作历史记录。',
+      '标注 🆕 的条目由脚本自动采集并分类，欢迎提 PR 修正其分类与描述。'
     ],
     disclaimerTitle: '免责声明',
     disclaimer:
@@ -199,7 +182,9 @@ const text = {
       '提交 PR。'
     ],
     updateTitle: '更新',
-    updateComments: ['# 刷新 star 数与两个 README', '# 额外列出尚未收录的候选仓库'],
+    updateIntro:
+      '[GitHub Action](.github/workflows/update.yml) 每 24 小时执行一次下面两个脚本并自动提交，让列表自行保持更新。本地手动执行：',
+    updateComments: ['# 采集新仓库并自动分类', '# 刷新 star 数与两个 README'],
     licenseTitle: '许可证'
   }
 };
@@ -240,9 +225,11 @@ ${t.contributeSteps.map((s, i) => `${i + 1}. ${s}`).join('\n')}
 
 ## ${t.updateTitle}
 
+${t.updateIntro}
+
 \`\`\`bash
-node scripts/update.mjs            ${t.updateComments[0]}
-node scripts/update.mjs --discover ${t.updateComments[1]}
+node scripts/collect.mjs  ${t.updateComments[0]}
+node scripts/update.mjs   ${t.updateComments[1]}
 \`\`\`
 
 ## ${t.licenseTitle}

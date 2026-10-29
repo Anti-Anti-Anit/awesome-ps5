@@ -1,0 +1,24 @@
+{
+ "blocked": [
+  {
+   "repo": "Coder787-source/KytyPlus",
+   "why": "KytyPS5 的换皮 fork，无独立维护价值"
+  },
+  {
+   "repo": "Supermedo/KytyPS5-SuperMedo",
+   "why": "KytyPS5 的换皮 fork，无独立维护价值"
+  },
+  {
+   "repo": "craze1pirate/craziiEmu",
+   "why": "宣称可运行商业 PS5 游戏，疑似引流 / 恶意仓库"
+  },
+  {
+   "repo": "LittleBitUA/DownpourRecomp",
+   "why": "Xbox 360 游戏的 PC 重编译，与 PS5 无关"
+  },
+  {
+   "repo": "joker-zone/LEA-GAMES",
+   "why": "描述单薄的游戏合集仓库，疑似盗版引流"
+  }
+ ]
+}

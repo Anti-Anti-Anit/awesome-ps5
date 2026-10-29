@@ -2,15 +2,15 @@
 
 **English** · [简体中文](README.zh-CN.md)
 
-![Projects](https://img.shields.io/badge/projects-245-brightgreen)
-![Stars](https://img.shields.io/badge/stars-134018-yellow)
+![Projects](https://img.shields.io/badge/projects-259-brightgreen)
+![Stars](https://img.shields.io/badge/stars-137997-yellow)
 ![Updated](https://img.shields.io/badge/updated-2026-10-29-blue)
 
 > Every GitHub project related to the PlayStation 5 with **more than 50 stars** — jailbreak, homebrew, emulators, packaging tools, Linux, streaming and controller ecosystem.
 
-- **245** projects · **134,018** stars in total
-- Data synced on 2026-10-29 · 13 archived repositories (🪦)
-- Sorted by stars, refreshed weekly via the [GitHub API](https://docs.github.com/rest)
+- **259** projects · **137,997** stars in total
+- Data synced on 2026-10-29 · 13 archived repositories (🪦) · 14 auto-collected entries (🆕)
+- Sorted by stars; new repositories are harvested and classified, and star counts are refreshed, every 24 hours by GitHub Actions
 
 ## Contents
 
@@ -35,14 +35,14 @@ Run PS5 titles on PC, or port PS5 executables to other platforms.
 
 | Project | Star | Description |
 | :--- | ---: | :--- |
-| [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) | 49,413 | Automatically ports PS5 executables to Linux and Windows |
-| [KytyPS5/KytyPS5](https://github.com/KytyPS5/KytyPS5) | 10,094 | PS5 translation layer for Windows, Linux and macOS |
-| [sharpemu/sharpemu](https://github.com/sharpemu/sharpemu) | 6,484 | Experimental PlayStation 5 emulator |
+| [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) | 49,426 | Automatically ports PS5 executables to Linux and Windows |
+| [KytyPS5/KytyPS5](https://github.com/KytyPS5/KytyPS5) | 10,098 | PS5 translation layer for Windows, Linux and macOS |
+| [sharpemu/sharpemu](https://github.com/sharpemu/sharpemu) | 6,485 | Experimental PlayStation 5 emulator |
 | [InoriRus/Kyty](https://github.com/InoriRus/Kyty) | 3,237 | Original PS4 & PS5 emulator project |
 | [Jetsku/KytyPS5](https://github.com/Jetsku/KytyPS5) | 506 | KytyPS5 fork with merged shader and renderer fixes |
 | [ymatrix1/PortPS5](https://github.com/ymatrix1/PortPS5) | 422 | Re-links decrypted PS5 dumps into native Windows executables |
 | [Force67/prosperity](https://github.com/Force67/prosperity) | 409 | Low-level (LLE) emulation research for PS4 & PS5 |
-| [mpereiraesaa/prospero-win](https://github.com/mpereiraesaa/prospero-win) | 235 | Windows compatibility runtime for native PS5 homebrew |
+| [mpereiraesaa/prospero-win](https://github.com/mpereiraesaa/prospero-win) | 236 | Windows compatibility runtime for native PS5 homebrew |
 | [mattias800/prosper](https://github.com/mattias800/prosper) | 214 | User-space PS5-to-PC compatibility layer |
 | [aarvsn/Ryty](https://github.com/aarvsn/Ryty) | 124 | Porting tool for PS4 & PS5 executables (ELF / SPIR-V) |
 | [iStark/PS5PCEM](https://github.com/iStark/PS5PCEM) | 81 | Experimental PS5 PC emulator |
@@ -54,19 +54,19 @@ Play other consoles' games as homebrew on a jailbroken PS5.
 
 | Project | Star | Description |
 | :--- | ---: | :--- |
-| [Swordpdf/PS5SX2](https://github.com/Swordpdf/PS5SX2) | 1,582 | PCSX2 port that runs PS2 games natively on PS5 |
+| [Swordpdf/PS5SX2](https://github.com/Swordpdf/PS5SX2) | 1,583 | PCSX2 port that runs PS2 games natively on PS5 |
 | [premohq/PS5-ECAM](https://github.com/premohq/PS5-ECAM) | 422 | Wii U, 3DS, DS and Switch emulation on PS5 |
-| [mihawk-99/PS5_RetroArch](https://github.com/mihawk-99/PS5_RetroArch) | 410 | RetroArch for PS5 with 35 cores and 44 systems |
+| [mihawk-99/PS5_RetroArch](https://github.com/mihawk-99/PS5_RetroArch) | 411 | RetroArch for PS5 with 35 cores and 44 systems |
 | [BrinooTk/PS5X360](https://github.com/BrinooTk/PS5X360) | 390 | Xbox 360 emulator built on Xenia Canary |
 | [elripalda/Porpoise-Dolphin-Emulator-for-PS5](https://github.com/elripalda/Porpoise-Dolphin-Emulator-for-PS5) | 217 | Dolphin port for GameCube and Wii games |
-| [holdmysocks/mcla-recomp](https://github.com/holdmysocks/mcla-recomp) | 208 | Static recompilation of Midnight Club: LA for PC and PS5 |
+| [holdmysocks/mcla-recomp](https://github.com/holdmysocks/mcla-recomp) | 209 | Static recompilation of Midnight Club: LA for PC and PS5 |
 | [ZiZc3/XPSemu](https://github.com/ZiZc3/XPSemu) | 203 | Xemu port for original Xbox games |
 | [kamb205/KB-RPCS3](https://github.com/kamb205/KB-RPCS3) | 99 | Unofficial RPCS3 port for PS5 |
 | [SynoPiia/PSXS5](https://github.com/SynoPiia/PSXS5) | 95 | PS1 emulator based on PCSX-ReARMed |
 | [darkxex/SwanStationPS5](https://github.com/darkxex/SwanStationPS5) | 91 | PS1 emulator based on SwanStation |
 | [lavavex/rpcs3-PS5](https://github.com/lavavex/rpcs3-PS5) | 85 | RPCS3 built as a native PS5 title (experimental) |
-| [felipeAguiarCode/PS5EmuShell](https://github.com/felipeAguiarCode/PS5EmuShell) | 72 | Launcher for emulators and recompiled games on PS5 |
-| [aarvsn/PS5Droid](https://github.com/aarvsn/PS5Droid) | 70 | Run Android games on PS5 |
+| [felipeAguiarCode/PS5EmuShell](https://github.com/felipeAguiarCode/PS5EmuShell) | 73 | Launcher for emulators and recompiled games on PS5 |
+| [aarvsn/PS5Droid](https://github.com/aarvsn/PS5Droid) | 71 | Run Android games on PS5 |
 | [elripalda/gta4-ps5](https://github.com/elripalda/gta4-ps5) | 69 | GTA IV trilogy running natively on jailbroken PS5 |
 | [MisterTemaki/snes9xPS5](https://github.com/MisterTemaki/snes9xPS5) | 62 | Snes9x port for PS5 |
 | [Phi1ow/mkwii-ps5](https://github.com/Phi1ow/mkwii-ps5) | 60 | Mario Kart Wii static recompilation for PS5 |
@@ -78,17 +78,17 @@ WebKit, kernel and hypervisor exploits, plus exploit hosts.
 
 | Project | Star | Description |
 | :--- | ---: | :--- |
-| [ntfargo/Relapse-Exploit](https://github.com/ntfargo/Relapse-Exploit) | 2,602 | Full exploit chain for PS5 7.00 – 13.60 |
+| [ntfargo/Relapse-Exploit](https://github.com/ntfargo/Relapse-Exploit) | 2,601 | Full exploit chain for PS5 7.00 – 13.60 |
 | [Gezine/Y2JB](https://github.com/Gezine/Y2JB) | 1,613 | Userland code execution via the PS5 YouTube app |
 | [Al-Azif/ps4-exploit-host](https://github.com/Al-Azif/ps4-exploit-host) | 1,217 | One-click exploit hosting for PS4 and PS5 |
 | [Cryptogenic/PS5-IPV6-Kernel-Exploit](https://github.com/Cryptogenic/PS5-IPV6-Kernel-Exploit) | 930 | WebKit-based kernel exploit with arbitrary read/write |
 | [PS5Dev/Byepervisor-Reborn](https://github.com/PS5Dev/Byepervisor-Reborn) | 520 | PS5 hypervisor exploit, revived |
-| [drakmor/nanoDNS](https://github.com/drakmor/nanoDNS) | 494 | DNS proxy server for PS4 and PS5 |
-| [n0llptr/remote_lua_loader](https://github.com/n0llptr/remote_lua_loader) | 454 | Remote Lua payload loader |
+| [drakmor/nanoDNS](https://github.com/drakmor/nanoDNS) | 496 | DNS proxy server for PS4 and PS5 |
+| [n0llptr/remote_lua_loader](https://github.com/n0llptr/remote_lua_loader) | 453 | Remote Lua payload loader |
 | [Gezine/BD-JB5](https://github.com/Gezine/BD-JB5) | 426 | Blu-ray BD-JB exploit for PS5 |
 | [ZigZagBoi1/PS5-14.10-Research](https://github.com/ZigZagBoi1/PS5-14.10-Research) | 393 | Open research on firmware 14.10: Lua userland experiments |
 | [PS5Dev/Byepervisor](https://github.com/PS5Dev/Byepervisor) | 391 | Hypervisor exploit for firmware 1.xx – 2.xx |
-| [pastawithpesto/PS5-14.10-Jailbreak-Research](https://github.com/pastawithpesto/PS5-14.10-Jailbreak-Research) | 342 | WebKit jailbreak research for firmware 14.10 |
+| [pastawithpesto/PS5-14.10-Jailbreak-Research](https://github.com/pastawithpesto/PS5-14.10-Jailbreak-Research) | 343 | WebKit jailbreak research for firmware 14.10 |
 | [Gezine/Luac0re](https://github.com/Gezine/Luac0re) | 332 | mast1c0re variant that uses Lua to ease exploit development |
 | [ntfargo/CSSFontFace-Exploit](https://github.com/ntfargo/CSSFontFace-Exploit) | 325 | WebKit CSSFontFace UAF exploit (PS4 / PS5) |
 | [Viktorious-x/ps5-bdjb-modified-ISOs](https://github.com/Viktorious-x/ps5-bdjb-modified-ISOs) | 293 | Modified ISOs for the BD-JB exploit |
@@ -118,14 +118,14 @@ Payload loaders, kernel patches, SDKs and debuggers.
 
 | Project | Star | Description |
 | :--- | ---: | :--- |
-| [itsPLK/ps5-webkit-autoloader](https://github.com/itsPLK/ps5-webkit-autoloader) | 1,286 | Automated payload loader for exploited consoles |
-| [EchoStretch/kstuff-lite](https://github.com/EchoStretch/kstuff-lite) | 842 | Lightweight build of the kstuff kernel patch |
-| [etaHEN/etaHEN](https://github.com/etaHEN/etaHEN) | 826 | All-in-one HEN payload |
+| [itsPLK/ps5-webkit-autoloader](https://github.com/itsPLK/ps5-webkit-autoloader) | 1,288 | Automated payload loader for exploited consoles |
+| [EchoStretch/kstuff-lite](https://github.com/EchoStretch/kstuff-lite) | 843 | Lightweight build of the kstuff kernel patch |
+| [etaHEN/etaHEN](https://github.com/etaHEN/etaHEN) | 827 | All-in-one HEN payload |
 | [itsPLK/ps5-payload-manager](https://github.com/itsPLK/ps5-payload-manager) | 681 | Web dashboard to manage, import and auto-update payloads |
 | [aydencharles/onionHEN](https://github.com/aydencharles/onionHEN) | 479 | HEN enabler |
 | [ps5-payload-dev/sdk](https://github.com/ps5-payload-dev/sdk) | 267 | Dynamically linked PS5 payload SDK |
 | [Michele-M-Media/HYPERHEN](https://github.com/Michele-M-Media/HYPERHEN) | 242 | HEN implementation |
-| [ps5-payload-dev/websrv](https://github.com/ps5-payload-dev/websrv) | 219 | Web server payload listening on port 8080 |
+| [ps5-payload-dev/websrv](https://github.com/ps5-payload-dev/websrv) | 220 | Web server payload listening on port 8080 |
 | [PS5Dev/PS5SDK](https://github.com/PS5Dev/PS5SDK) | 218 | SDK for payloads compatible with the WebKit + kernel loader |
 | [ps5-payload-dev/ftpsrv](https://github.com/ps5-payload-dev/ftpsrv) | 197 | FTP server payload for PS4 and PS5 |
 | [itsPLK/ps5-payloads-mirror](https://github.com/itsPLK/ps5-payloads-mirror) | 185 | Mirror of common payloads |
@@ -133,15 +133,17 @@ Payload loaders, kernel patches, SDKs and debuggers.
 | [ps5-payload-dev/elfldr](https://github.com/ps5-payload-dev/elfldr) | 148 | ELF payload loader on port 9021 |
 | [Pharaoh2k/ps5debug-NG](https://github.com/Pharaoh2k/ps5debug-NG) | 121 | ps5debug payload over TCP |
 | [cragson/ps5-hen](https://github.com/cragson/ps5-hen) | 104 | HEN for firmware 1.00 – 4.51 |
+| [xvvulcanvx/PS5-TabShifter](https://github.com/xvvulcanvx/PS5-TabShifter) 🆕 | 102 | Standalone PS5 on-console payload to move apps between Games/Media tabs and hide offline PSN bloatware (Universal FW 5.00 – 13.60) |
 | [ArkSama/PS5-Lapy-JB-Daemon](https://github.com/ArkSama/PS5-Lapy-JB-Daemon) | 91 | Standalone jailbreak daemon with an etaHEN-style API |
 | [aydencharles/kylin-core-release](https://github.com/aydencharles/kylin-core-release) | 90 | kylin kernel patch release |
 | [GronedWaffel/etahen-11.00-13.60](https://github.com/GronedWaffel/etahen-11.00-13.60) | 87 | Unified etaHEN 2.5B port for 11.00 – 13.60 |
 | [ps5-payload-dev/offact](https://github.com/ps5-payload-dev/offact) | 85 | Offline account activation |
+| [lvndry/ps5-firmware-pin](https://github.com/lvndry/ps5-firmware-pin) | 74 | Pin the firmware version and block forced updates |
 | [buzzer-re/PS5_kldload](https://github.com/buzzer-re/PS5_kldload) | 73 | Kernel module loader inspired by FreeBSD kldload |
-| [lvndry/ps5-firmware-pin](https://github.com/lvndry/ps5-firmware-pin) | 73 | Pin the firmware version and block forced updates |
 | [ps5-payload-dev/fetchpkg](https://github.com/ps5-payload-dev/fetchpkg) | 68 | Fetch game updates referenced by a JSON manifest |
+| [drakmor/pgo_stub](https://github.com/drakmor/pgo_stub) 🆕 | 59 | A lightweight replacement module for the PlayGo runtime library on PlayStation 5 |
+| [EchoStretch/kstuff-toggle](https://github.com/EchoStretch/kstuff-toggle) | 52 | Toggle for the kstuff kernel patch |
 | [cryonumb/elfloader](https://github.com/cryonumb/elfloader) | 51 | ELF loader for ps5-jar-loader |
-| [EchoStretch/kstuff-toggle](https://github.com/EchoStretch/kstuff-toggle) | 51 | Toggle for the kstuff kernel patch |
 
 ### 📦 Packages / fPKG / Compression
 
@@ -186,13 +188,13 @@ Install games, manage files, download and back up.
 | [pegasus-ps5/pegasus-dl](https://github.com/pegasus-ps5/pegasus-dl) | 445 | Direct package downloads on the console |
 | [deox1111/ps5-library](https://github.com/deox1111/ps5-library) | 289 | Pick a game, it downloads and installs it |
 | [notmaj0r/ProsperoMgr](https://github.com/notmaj0r/ProsperoMgr) | 273 | All-in-one manager for PS5 |
-| [elripalda/RecompStore](https://github.com/elripalda/RecompStore) | 270 | Homebrew store for recompiled games |
-| [owendswang/ps5-web-file-manager](https://github.com/owendswang/ps5-web-file-manager) | 262 | File manager with a web UI |
+| [elripalda/RecompStore](https://github.com/elripalda/RecompStore) | 272 | Homebrew store for recompiled games |
+| [owendswang/ps5-web-file-manager](https://github.com/owendswang/ps5-web-file-manager) | 263 | File manager with a web UI |
 | [itsPLK/ps5-pkg-manager](https://github.com/itsPLK/ps5-pkg-manager) | 235 | Clean package manager for PS5 |
-| [JVK3R/JobeesLair](https://github.com/JVK3R/JobeesLair) | 192 | Content-neutral homebrew indexer and media framework |
+| [JVK3R/JobeesLair](https://github.com/JVK3R/JobeesLair) | 193 | Content-neutral homebrew indexer and media framework |
 | [EchoStretch/ps5-app-dumper](https://github.com/EchoStretch/ps5-app-dumper) | 186 | App dumper |
 | [Loopayeh/pkg-sender](https://github.com/Loopayeh/pkg-sender) | 186 | Install PS4 / PS5 packages over LAN |
-| [Loopayeh/pkg-viewer](https://github.com/Loopayeh/pkg-viewer) | 180 | Inspect PS3 / PS4 / PS5 package info and cover art |
+| [Loopayeh/pkg-viewer](https://github.com/Loopayeh/pkg-viewer) | 181 | Inspect PS3 / PS4 / PS5 package info and cover art |
 | [gasb07/ps4mount](https://github.com/gasb07/ps4mount) | 179 | Mount PKG games from USB without installing |
 | [earthonion/garlic-savemgr](https://github.com/earthonion/garlic-savemgr) | 177 | Local save manager for PS5 |
 | [NookieAI/PS5-Game-Scraper](https://github.com/NookieAI/PS5-Game-Scraper) | 158 | Browse, search and download PS5 games |
@@ -204,11 +206,12 @@ Install games, manage files, download and back up.
 | [nexgen999/PS5-Repository-List](https://github.com/nexgen999/PS5-Repository-List) | 104 | List of PS5 repositories |
 | [s0liton/RommPS](https://github.com/s0liton/RommPS) | 101 | RomM server client for jailbroken PS5 |
 | [nexgen999/PS5-Super-PLDMGR-Auto-Updater](https://github.com/nexgen999/PS5-Super-PLDMGR-Auto-Updater) | 99 | Auto-updater for PLDMGR |
-| [EchoStretch/dump_installer](https://github.com/EchoStretch/dump_installer) | 91 | Dump installer |
+| [EchoStretch/dump_installer](https://github.com/EchoStretch/dump_installer) | 92 | Dump installer |
 | [ChillQuant/direct-stream-ps5](https://github.com/ChillQuant/direct-stream-ps5) | 79 | Parallel download engine with a local web dashboard |
+| [OptiTronOffical/OptiStore](https://github.com/OptiTronOffical/OptiStore) 🆕 | 75 | Front end for browsing PS4 and PS5 package libraries. |
 | [ItsBlurf/BFpilot](https://github.com/ItsBlurf/BFpilot) | 66 | Browser-based file manager |
 | [holdmysocks/ps5-tailscale](https://github.com/holdmysocks/ps5-tailscale) | 63 | Tailscale on the console for remote access |
-| [darkxex/ps5-homebrew-catalog](https://github.com/darkxex/ps5-homebrew-catalog) | 60 | Homebrew catalog data |
+| [darkxex/ps5-homebrew-catalog](https://github.com/darkxex/ps5-homebrew-catalog) | 61 | Homebrew catalog data |
 | [heni0xyz/PS5Save](https://github.com/heni0xyz/PS5Save) | 51 | USB save backup utility |
 | [IRONB0SS/PSXhub](https://github.com/IRONB0SS/PSXhub) | 51 | Transfer retail PKG files over LAN |
 
@@ -218,12 +221,12 @@ Patch systems, backports, frame-rate unlocks and cheat repositories.
 
 | Project | Star | Description |
 | :--- | ---: | :--- |
-| [illusionyy/PS-Game-Patch](https://github.com/illusionyy/PS-Game-Patch) | 406 | Custom game patches for PS4 and PS5 |
-| [TeeKay87/HEN-Cheats-Collection](https://github.com/TeeKay87/HEN-Cheats-Collection) | 286 | Cheat collection for PS4 and PS5 |
+| [illusionyy/PS-Game-Patch](https://github.com/illusionyy/PS-Game-Patch) | 407 | Custom game patches for PS4 and PS5 |
+| [TeeKay87/HEN-Cheats-Collection](https://github.com/TeeKay87/HEN-Cheats-Collection) | 287 | Cheat collection for PS4 and PS5 |
 | [BestPig/BackPork](https://github.com/BestPig/BackPork) | 270 | Sideload system libraries into PS5 games |
-| [notmaj0r/CheatRunner](https://github.com/notmaj0r/CheatRunner) | 268 | Web-based cheat trainer for PS5 |
+| [notmaj0r/CheatRunner](https://github.com/notmaj0r/CheatRunner) | 269 | Web-based cheat trainer for PS5 |
 | [knutwurst/ps5-patchdl](https://github.com/knutwurst/ps5-patchdl) | 203 | Download official game updates from any browser |
-| [illusionyy/ps-patch-system](https://github.com/illusionyy/ps-patch-system) | 196 | App patching system for PS4 and PS5 |
+| [illusionyy/ps-patch-system](https://github.com/illusionyy/ps-patch-system) | 195 | App patching system for PS4 and PS5 |
 | [gasb07/NeoEnabler](https://github.com/gasb07/NeoEnabler) | 171 | Brings patches to games lacking PS4 support |
 | [eladharels/ps5-60FPS](https://github.com/eladharels/ps5-60FPS) | 112 | 60FPS unlock patches |
 | [tsuramatsu1/apr-emu-updater](https://github.com/tsuramatsu1/apr-emu-updater) | 108 | Keeps APR Emu up to date from a web UI |
@@ -241,9 +244,9 @@ Running Linux on PS5 and BC-250 (PS5 APU) projects.
 | [ps5-linux/ps5-linux-loader](https://github.com/ps5-linux/ps5-linux-loader) | 474 | Linux payload using HV exploits to run a custom bootloader |
 | [akandr/bc250](https://github.com/akandr/bc250) | 416 | Ollama + Vulkan inference on BC-250 |
 | [mihawk-99/PS5_MihawkOS](https://github.com/mihawk-99/PS5_MihawkOS) | 312 | Windows-inspired PS5 homebrew OS |
-| [soniciso1/ps5-linux-loader](https://github.com/soniciso1/ps5-linux-loader) | 278 | Linux loader fork with 13.60 and PS5 Pro support |
+| [soniciso1/ps5-linux-loader](https://github.com/soniciso1/ps5-linux-loader) | 279 | Linux loader fork with 13.60 and PS5 Pro support |
 | [pLabs5/pLinux5-NG](https://github.com/pLabs5/pLinux5-NG) 🪦 | 196 | Linux for higher firmware (8.xx – 13.xx) |
-| [VivaLaVent/ps5-bazzite-deck](https://github.com/VivaLaVent/ps5-bazzite-deck) | 151 | Bazzite gaming mode images for PS5 |
+| [VivaLaVent/ps5-bazzite-deck](https://github.com/VivaLaVent/ps5-bazzite-deck) | 159 | Bazzite gaming mode images for PS5 |
 | [mihawk-99/PS5_Vulkan](https://github.com/mihawk-99/PS5_Vulkan) | 115 | Native Vulkan driver powered by Mesa / RADV |
 | [ps5-linux/ps5-linux-image](https://github.com/ps5-linux/ps5-linux-image) | 96 | Linux image builder |
 | [ps5-linux/ps5-linux-patches](https://github.com/ps5-linux/ps5-linux-patches) | 53 | Linux patches required to run on PS5 |
@@ -255,6 +258,7 @@ Remote play clients, broadcasts and remote control.
 | Project | Star | Description |
 | :--- | ---: | :--- |
 | [chiaki-ng/chiaki-ng](https://github.com/chiaki-ng/chiaki-ng) | 2,918 | Next-generation open-source PS Remote Play client |
+| [leolobato/playden-ps5](https://github.com/leolobato/playden-ps5) 🆕 | 862 | Play your Steam library's Windows games on a jailbroken PS5. |
 | [Geocld/PeaSyo](https://github.com/Geocld/PeaSyo) | 383 | Open-source remote play client for Android |
 | [chiaki-ng/akira](https://github.com/chiaki-ng/akira) | 240 | PS Remote Play GUI for Nintendo Switch |
 | [dhleong/playactor](https://github.com/dhleong/playactor) | 157 | Tools to interact with PlayStation devices |
@@ -264,7 +268,7 @@ Remote play clients, broadcasts and remote control.
 | [atameric/ps5-portal-high-bitrate](https://github.com/atameric/ps5-portal-high-bitrate) | 87 | Experimental higher-bitrate tools for PlayStation Portal |
 | [Axixi2233/chiaki-android](https://github.com/Axixi2233/chiaki-android) | 81 | Chiaki fork for Android |
 | [ywnico/vitaki-fork](https://github.com/ywnico/vitaki-fork) | 78 | Chiaki fork for PS Vita |
-| [cy33hc/ps5-ezremote-client](https://github.com/cy33hc/ps5-ezremote-client) | 77 | Simplified remote play client |
+| [cy33hc/ps5-ezremote-client](https://github.com/cy33hc/ps5-ezremote-client) | 78 | Simplified remote play client |
 | [Geocld/PeaSyo4Desk](https://github.com/Geocld/PeaSyo4Desk) | 71 | Desktop client of PeaSyo |
 | [thiagomiranda3/PlaystationMacro](https://github.com/thiagomiranda3/PlaystationMacro) | 68 | Remote play automation for PS4 and PS5 |
 | [ktnrg45/pyremoteplay](https://github.com/ktnrg45/pyremoteplay) 🪦 | 56 | Python API for PlayStation Remote Play |
@@ -306,9 +310,11 @@ Drivers, firmware, adaptive triggers and cross-platform tooling for the PS5 pad.
 
 | Project | Star | Description |
 | :--- | ---: | :--- |
-| [awalol/DS5Dongle](https://github.com/awalol/DS5Dongle) | 2,977 | Turn a Pico 2 W into a DualSense dongle |
+| [awalol/DS5Dongle](https://github.com/awalol/DS5Dongle) | 2,976 | Turn a Pico 2 W into a DualSense dongle |
+| [Paliverse/DualSenseX](https://github.com/Paliverse/DualSenseX) 🆕 | 1,650 | Connect your DualSense Controller, use Adaptive Triggers, Emulate Xbox 360 or DualShock 4 through USB or Bluetooth on PC |
 | [JibbSmart/JoyShockMapper](https://github.com/JibbSmart/JoyShockMapper) | 876 | Map gamepads to mouse and keyboard with gyro support |
 | [daidr/dualsense-tester](https://github.com/daidr/dualsense-tester) | 586 | Test DualSense and Edge in the browser |
+| [HamzaYslmn/Forza-Horizon-DualSense-Python](https://github.com/HamzaYslmn/Forza-Horizon-DualSense-Python) 🆕 | 466 | Forza Horizon DualSense Adaptive Triggers |
 | [nowrep/dualsensectl](https://github.com/nowrep/dualsensectl) | 451 | Linux tool for controlling the DualSense |
 | [WujekFoliarz/DualSenseY-v2](https://github.com/WujekFoliarz/DualSenseY-v2) | 449 | DualSense companion with adaptive triggers and Xbox emulation |
 | [Ohjurot/DualSense-Windows](https://github.com/Ohjurot/DualSense-Windows) | 442 | Windows API for the DualSense |
@@ -317,6 +323,7 @@ Drivers, firmware, adaptive triggers and cross-platform tooling for the PS5 pad.
 | [JibbSmart/JoyShockLibrary](https://github.com/JibbSmart/JoyShockLibrary) | 317 | Read DualSense, DS4 and JoyCon input on PC |
 | [ds4windowsapp/DS4Windows](https://github.com/ds4windowsapp/DS4Windows) | 224 | Gamepad mapper with DualSense support |
 | [sqlCRT/ds5dongle-bl618-opensource](https://github.com/sqlCRT/ds5dongle-bl618-opensource) | 217 | DualSense wireless adapter based on BL616 / BL618 |
+| [ReynArts/ApexSenseBridge](https://github.com/ReynArts/ApexSenseBridge) 🆕 | 215 | Bring native PS5 DualSense adaptive triggers, haptics & touchpad features to Flydigi APEX 4, APEX 5 & APEX 6 Pro on Windows. 215+ games, Standalone + Playnite. |
 | [egormanga/SAxense](https://github.com/egormanga/SAxense) | 200 | DualSense haptics over Bluetooth (PoC) |
 | [rodneybakiskan/ps5-esp32](https://github.com/rodneybakiskan/ps5-esp32) | 195 | Use a PS5 controller with an ESP32 |
 | [r57zone/DSAdvance](https://github.com/r57zone/DSAdvance) | 195 | Emulate an Xbox controller with DualSense and friends |
@@ -327,15 +334,22 @@ Drivers, firmware, adaptive triggers and cross-platform tooling for the PS5 pad.
 | [nondebug/dualsense](https://github.com/nondebug/dualsense) | 122 | Technical notes on Sony's DualSense |
 | [josealissonbr/DualSenseAT](https://github.com/josealissonbr/DualSenseAT) 🪦 | 118 | Hub app that adds adaptive triggers to more games |
 | [BananaWorks07/trigger-control](https://github.com/BananaWorks07/trigger-control) | 94 | Control DualSense triggers on Linux and Windows |
+| [MarcelineVPQ/DS5Dongle-OLED-Edition](https://github.com/MarcelineVPQ/DS5Dongle-OLED-Edition) 🆕 | 91 | DS5 Dongle OLED Edition: a Raspberry Pi Pico 2 W that connects a DualSense over Bluetooth while games see a wired one (adaptive triggers, HD haptics, speaker, mic). Optional OLED, desktop app, in-dongle calibration. Fork of awalol/DS5Dongle. |
 | [xzn/proton-ds5-haptic](https://github.com/xzn/proton-ds5-haptic) | 85 | Proton patches for DualSense haptics |
 | [yesbotics/dualsense-controller-python](https://github.com/yesbotics/dualsense-controller-python) | 84 | DualSense library for Python |
+| [tommargar/DualSense4Rockstar](https://github.com/tommargar/DualSense4Rockstar) 🆕 | 81 | Mods for GTA V and RDR 2 to add support for adaptive triggers to the DualSense controller via DSX  |
 | [artzox/DS5Dongle-Studio](https://github.com/artzox/DS5Dongle-Studio) | 80 | Wireless haptics for native DualSense games on PC |
+| [piereacy/FH-DualSense-Enhanced](https://github.com/piereacy/FH-DualSense-Enhanced) 🆕 | 80 | Forza Horizon DualSense Controller Adaptive Vibration |
 | [Paliverse/DualSense-List-of-Firmwares](https://github.com/Paliverse/DualSense-List-of-Firmwares) | 79 | Official DualSense firmware collection |
 | [rafaelvaloto/Dualsense-Multiplatform](https://github.com/rafaelvaloto/Dualsense-Multiplatform) | 72 | Cross-platform C++ library for Sony controllers |
 | [marcowindt/ds4macos](https://github.com/marcowindt/ds4macos) | 72 | DSU server for DualShock 4 and DualSense on macOS |
 | [Mutcholoko/Haptic-Feedback-Linux](https://github.com/Mutcholoko/Haptic-Feedback-Linux) 🪦 | 67 | Guide to DualSense haptics on Linux |
+| [diegobarbosaa/OmniPad-PS5](https://github.com/diegobarbosaa/OmniPad-PS5) 🆕 | 66 | Universal controller engine & Web Dashboard for PlayStation 5 (FW 7.00 - 13.60) |
 | [kungaa/DS5-Linux-Bridge](https://github.com/kungaa/DS5-Linux-Bridge) | 64 | USB-to-Bluetooth bridge firmware for Raspberry Pi |
+| [LikeARealG/ETS2_PS5_DualSense](https://github.com/LikeARealG/ETS2_PS5_DualSense) 🆕 | 64 | Application that give the PS5 controller some life inside Euro Truck Simulator 2 |
 | [nsfm/dualsense-ts](https://github.com/nsfm/dualsense-ts) | 58 | TypeScript interface for DualSense and Access |
+| [qingwa2009/MyBLEGamepad](https://github.com/qingwa2009/MyBLEGamepad) 🆕 | 58 | 用ESP32自制xbox+switchPro+DualSense 蓝牙手柄（Use ESP32 to create a xbox+SwitchPro+DualSense BLE Gamepad） |
+| [CyberKomodo/CyberKomodo.DualSense](https://github.com/CyberKomodo/CyberKomodo.DualSense) 🆕 | 58 | DualSense controller integration for Unity with support for USB and Bluetooth. |
 | [HamzaYslmn/esp-ps5](https://github.com/HamzaYslmn/esp-ps5) | 57 | ESP32 library for the DualSense |
 | [MaximumFreak/dsz](https://github.com/MaximumFreak/dsz) | 56 | Fast native Windows companion for DualSense |
 | [DualSenseClient/DualSenseClient](https://github.com/DualSenseClient/DualSenseClient) | 53 | Unlock the full DualSense experience on Windows and Linux |
@@ -347,7 +361,7 @@ Media apps, AI, UI and development resources running on PS5.
 | Project | Star | Description |
 | :--- | ---: | :--- |
 | [cobanov/PS5LM](https://github.com/cobanov/PS5LM) | 738 | Run llama.cpp LLMs natively on a jailbroken PS5 |
-| [abhi245y/PS5LM-Plus](https://github.com/abhi245y/PS5LM-Plus) | 480 | Extended build of the PS5 local LLM setup |
+| [abhi245y/PS5LM-Plus](https://github.com/abhi245y/PS5LM-Plus) | 481 | Extended build of the PS5 local LLM setup |
 | [mikeroyal/Game-Console-Dev-Guide](https://github.com/mikeroyal/Game-Console-Dev-Guide) | 359 | Game development guide covering PS5 and other consoles |
 | [ZiZc3/LiveShell](https://github.com/ZiZc3/LiveShell) | 191 | Animated backgrounds for the PS5 home screen |
 | [X-F1REBALL-X/HearBridge-PS5](https://github.com/X-F1REBALL-X/HearBridge-PS5) | 181 | Route PS5 game audio to any Bluetooth headset |
@@ -368,7 +382,7 @@ Launch-era purchase bots, mostly unmaintained.
 
 | Project | Star | Description |
 | :--- | ---: | :--- |
-| [camtheperson/get-my-ps5](https://github.com/camtheperson/get-my-ps5) | 352 | CLI tool to secure a PS5 (obsolete) |
+| [camtheperson/get-my-ps5](https://github.com/camtheperson/get-my-ps5) | 353 | CLI tool to secure a PS5 (obsolete) |
 | [dkkocab/WebSiteBot_PS5](https://github.com/dkkocab/WebSiteBot_PS5) | 347 | Walmart purchase bot (obsolete) |
 | [eg9y/PS5bot](https://github.com/eg9y/PS5bot) 🪦 | 236 | Stock monitoring and auto-purchase bot (obsolete) |
 
@@ -379,6 +393,7 @@ Launch-era purchase bots, mostly unmaintained.
 - Projects that merely mention PS5 in their README (generic proxies, generic emulators, generic shopping bots) are excluded.
 - Plain forks and rebrands of an already listed project are excluded unless they are clearly better maintained.
 - Launch-era stock bots are kept in a separate section for historical reference.
+- Entries marked 🆕 were harvested and classified automatically; a pull request correcting their section or wording is always welcome.
 
 ## Disclaimer
 
@@ -394,9 +409,11 @@ Missing a project, or one has dropped below the star threshold? Open an issue or
 
 ## Updating
 
+A [GitHub Action](.github/workflows/update.yml) runs both scripts every 24 hours and commits the result, so the list stays current on its own. To do it locally:
+
 ```bash
-node scripts/update.mjs            # refresh stars and both READMEs
-node scripts/update.mjs --discover # also list candidates that are not listed yet
+node scripts/collect.mjs  # collect new projects and auto-classify them
+node scripts/update.mjs   # refresh stars and both READMEs
 ```
 
 ## License
