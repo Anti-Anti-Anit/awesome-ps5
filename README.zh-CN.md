@@ -3,12 +3,12 @@
 [English](README.md) · **简体中文**
 
 ![Projects](https://img.shields.io/badge/projects-259-brightgreen)
-![Stars](https://img.shields.io/badge/stars-137997-yellow)
+![Stars](https://img.shields.io/badge/stars-137998-yellow)
 ![Updated](https://img.shields.io/badge/updated-2026-10-29-blue)
 
 > 收录 GitHub 上所有 **star 数 > 50** 的 PlayStation 5 相关项目，覆盖越狱、homebrew、模拟器、游戏包工具、Linux、串流与手柄生态。
 
-- 共 **259** 个项目，合计 **137,997** star
+- 共 **259** 个项目，合计 **137,998** star
 - 数据同步于 2026-10-29，其中 13 个仓库已归档（🪦），14 条由脚本自动收录（🆕）
 - 表格按 star 数排序；GitHub Actions 每 24 小时自动采集新仓库、分类并刷新 star 数
 
@@ -35,7 +35,7 @@
 
 | 项目 | Star | 说明 |
 | :--- | ---: | :--- |
-| [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) | 49,426 | 自动把 PS5 可执行文件移植到 Linux / Windows |
+| [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) | 49,427 | 自动把 PS5 可执行文件移植到 Linux / Windows |
 | [KytyPS5/KytyPS5](https://github.com/KytyPS5/KytyPS5) | 10,098 | PS5 转译层，支持 Windows / Linux / macOS |
 | [sharpemu/sharpemu](https://github.com/sharpemu/sharpemu) | 6,485 | 实验性 PS5 模拟器 |
 | [InoriRus/Kyty](https://github.com/InoriRus/Kyty) | 3,237 | PS4 / PS5 模拟器原版项目 |

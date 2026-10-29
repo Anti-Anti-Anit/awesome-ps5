@@ -3,12 +3,12 @@
 **English** · [简体中文](README.zh-CN.md)
 
 ![Projects](https://img.shields.io/badge/projects-259-brightgreen)
-![Stars](https://img.shields.io/badge/stars-137997-yellow)
+![Stars](https://img.shields.io/badge/stars-137998-yellow)
 ![Updated](https://img.shields.io/badge/updated-2026-10-29-blue)
 
 > Every GitHub project related to the PlayStation 5 with **more than 50 stars** — jailbreak, homebrew, emulators, packaging tools, Linux, streaming and controller ecosystem.
 
-- **259** projects · **137,997** stars in total
+- **259** projects · **137,998** stars in total
 - Data synced on 2026-10-29 · 13 archived repositories (🪦) · 14 auto-collected entries (🆕)
 - Sorted by stars; new repositories are harvested and classified, and star counts are refreshed, every 24 hours by GitHub Actions
 
@@ -35,7 +35,7 @@ Run PS5 titles on PC, or port PS5 executables to other platforms.
 
 | Project | Star | Description |
 | :--- | ---: | :--- |
-| [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) | 49,426 | Automatically ports PS5 executables to Linux and Windows |
+| [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5) | 49,427 | Automatically ports PS5 executables to Linux and Windows |
 | [KytyPS5/KytyPS5](https://github.com/KytyPS5/KytyPS5) | 10,098 | PS5 translation layer for Windows, Linux and macOS |
 | [sharpemu/sharpemu](https://github.com/sharpemu/sharpemu) | 6,485 | Experimental PlayStation 5 emulator |
 | [InoriRus/Kyty](https://github.com/InoriRus/Kyty) | 3,237 | Original PS4 & PS5 emulator project |
