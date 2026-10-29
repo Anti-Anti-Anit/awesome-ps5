@@ -1,6 +1,6 @@
 {
   "boykopovar/AnyPS5": {
-    "stars": 49410,
+    "stars": 49413,
     "archived": false,
     "pushed": "2026-10-29",
     "desc": "Tool for automatic PS5 executables porting to Linux and Windows",
@@ -399,7 +399,7 @@
     "synced": "2026-10-29"
   },
   "zecoxao/zecoxao.github.io": {
-    "stars": 116,
+    "stars": 117,
     "archived": false,
     "pushed": "2026-10-29",
     "desc": "host of general ps scene sites",
@@ -854,7 +854,7 @@
     "synced": "2026-10-29"
   },
   "Loopayeh/pkg-sender": {
-    "stars": 185,
+    "stars": 186,
     "archived": false,
     "pushed": "2026-10-05",
     "desc": "PKG Sender — install PS4/PS5 packages over LAN. Pick games on PC, auto-find the console, queue and install. No USB, no manual IP.",
@@ -1029,7 +1029,7 @@
     "synced": "2026-10-29"
   },
   "gasb07/NeoEnabler": {
-    "stars": 170,
+    "stars": 171,
     "archived": false,
     "pushed": "2026-10-29",
     "desc": "Allows PS4 games with no PS4 Support to receive patches via illusionyy's ps-patch-system that can unlock higher resolutions",
@@ -1092,7 +1092,7 @@
     "synced": "2026-10-29"
   },
   "mihawk-99/PS5_MihawkOS": {
-    "stars": 311,
+    "stars": 312,
     "archived": false,
     "pushed": "2026-10-27",
     "desc": "A Windows-inspired PS5 homebrew OS bringing 32-bit and 64-bit Windows gaming to console hardware through a custom Wine/Proton compatibility stack and native Vulkan graphics.",
@@ -1113,7 +1113,7 @@
     "synced": "2026-10-29"
   },
   "VivaLaVent/ps5-bazzite-deck": {
-    "stars": 147,
+    "stars": 151,
     "archived": false,
     "pushed": "2026-10-29",
     "desc": "Bazzite Deck (Steam Gaming Mode) images for the PS5 with working Game Mode, VCN and Wi-Fi",

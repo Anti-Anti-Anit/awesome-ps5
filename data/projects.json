@@ -1,19 +1,19 @@
 {
  "categories": [
-  { "key": "emulator", "icon": "🎮", "title": "PS5 模拟器与转译层", "desc": "在 PC 上运行 PS5 游戏，或把 PS5 可执行文件移植到其他平台。" },
-  { "key": "onconsole", "icon": "🕹️", "title": "PS5 上的模拟器与移植游戏", "desc": "以 homebrew 形式在越狱 PS5 上运行其他主机的游戏。" },
-  { "key": "exploit", "icon": "🔓", "title": "越狱与漏洞利用", "desc": "WebKit / 内核 / 虚拟机管理程序漏洞，以及漏洞托管服务。" },
-  { "key": "hen", "icon": "🧩", "title": "HEN、载荷与运行时", "desc": "载荷加载器、内核补丁、SDK 与调试器。" },
-  { "key": "pkg", "icon": "📦", "title": "游戏包 / fPKG / 压缩", "desc": "PKG、PFS、PUP、SELF 的解析、打包与压缩工具。" },
-  { "key": "store", "icon": "🗂️", "title": "应用商店、包管理与文件传输", "desc": "向主机安装游戏、管理文件、下载与备份。" },
-  { "key": "patch", "icon": "🧪", "title": "游戏补丁、60FPS 与金手指", "desc": "游戏补丁系统、降级移植、帧率解锁与作弊码仓库。" },
-  { "key": "linux", "icon": "🐧", "title": "Linux 与系统", "desc": "在 PS5 上运行 Linux，以及 BC-250（PS5 APU）相关项目。" },
-  { "key": "streaming", "icon": "📡", "title": "串流与 Remote Play", "desc": "PS5 远程游玩客户端、推流与远程控制。" },
-  { "key": "psn", "icon": "🏆", "title": "PSN、账号与智能家居", "desc": "PSN API、奖杯数据、账号工具与 Home Assistant 集成。" },
-  { "key": "hardware", "icon": "🔧", "title": "硬件、维修与外设", "desc": "NOR 读写、UART、摄像头、开发机与主机维修工具。" },
-  { "key": "dualsense", "icon": "🎛️", "title": "DualSense 手柄", "desc": "PS5 手柄的驱动、固件、自适应扳机与跨平台工具。" },
-  { "key": "apps", "icon": "📺", "title": "PS5 原生应用与界面", "desc": "运行在 PS5 上的媒体应用、AI、UI 与开发资料。" },
-  { "key": "scalper", "icon": "🛒", "title": "抢购与库存告警（历史）", "desc": "首发缺货时期的抢购脚本，多数已停止维护。" }
+  { "key": "emulator", "icon": "🎮", "title": "PS5 模拟器与转译层", "titleEn": "PS5 Emulators & Translation Layers", "desc": "在 PC 上运行 PS5 游戏，或把 PS5 可执行文件移植到其他平台。", "descEn": "Run PS5 titles on PC, or port PS5 executables to other platforms." },
+  { "key": "onconsole", "icon": "🕹️", "title": "PS5 上的模拟器与移植游戏", "titleEn": "Emulators & Game Ports on PS5", "desc": "以 homebrew 形式在越狱 PS5 上运行其他主机的游戏。", "descEn": "Play other consoles' games as homebrew on a jailbroken PS5." },
+  { "key": "exploit", "icon": "🔓", "title": "越狱与漏洞利用", "titleEn": "Jailbreak & Exploits", "desc": "WebKit / 内核 / 虚拟机管理程序漏洞，以及漏洞托管服务。", "descEn": "WebKit, kernel and hypervisor exploits, plus exploit hosts." },
+  { "key": "hen", "icon": "🧩", "title": "HEN、载荷与运行时", "titleEn": "HEN, Payloads & Runtime", "desc": "载荷加载器、内核补丁、SDK 与调试器。", "descEn": "Payload loaders, kernel patches, SDKs and debuggers." },
+  { "key": "pkg", "icon": "📦", "title": "游戏包 / fPKG / 压缩", "titleEn": "Packages / fPKG / Compression", "desc": "PKG、PFS、PUP、SELF 的解析、打包与压缩工具。", "descEn": "Parse, build and compress PKG, PFS, PUP and SELF files." },
+  { "key": "store", "icon": "🗂️", "title": "应用商店、包管理与文件传输", "titleEn": "Stores, Package Managers & Transfers", "desc": "向主机安装游戏、管理文件、下载与备份。", "descEn": "Install games, manage files, download and back up." },
+  { "key": "patch", "icon": "🧪", "title": "游戏补丁、60FPS 与金手指", "titleEn": "Game Patches, 60FPS & Cheats", "desc": "游戏补丁系统、降级移植、帧率解锁与作弊码仓库。", "descEn": "Patch systems, backports, frame-rate unlocks and cheat repositories." },
+  { "key": "linux", "icon": "🐧", "title": "Linux 与系统", "titleEn": "Linux & System", "desc": "在 PS5 上运行 Linux，以及 BC-250（PS5 APU）相关项目。", "descEn": "Running Linux on PS5 and BC-250 (PS5 APU) projects." },
+  { "key": "streaming", "icon": "📡", "title": "串流与 Remote Play", "titleEn": "Streaming & Remote Play", "desc": "PS5 远程游玩客户端、推流与远程控制。", "descEn": "Remote play clients, broadcasts and remote control." },
+  { "key": "psn", "icon": "🏆", "title": "PSN、账号与智能家居", "titleEn": "PSN, Accounts & Smart Home", "desc": "PSN API、奖杯数据、账号工具与 Home Assistant 集成。", "descEn": "PSN APIs, trophy data, account tools and Home Assistant integrations." },
+  { "key": "hardware", "icon": "🔧", "title": "硬件、维修与外设", "titleEn": "Hardware, Repair & Accessories", "desc": "NOR 读写、UART、摄像头、开发机与主机维修工具。", "descEn": "NOR flashing, UART, camera, devkit and console repair tools." },
+  { "key": "dualsense", "icon": "🎛️", "title": "DualSense 手柄", "titleEn": "DualSense Controller", "desc": "PS5 手柄的驱动、固件、自适应扳机与跨平台工具。", "descEn": "Drivers, firmware, adaptive triggers and cross-platform tooling for the PS5 pad." },
+  { "key": "apps", "icon": "📺", "title": "PS5 原生应用与界面", "titleEn": "Native PS5 Apps & UI", "desc": "运行在 PS5 上的媒体应用、AI、UI 与开发资料。", "descEn": "Media apps, AI, UI and development resources running on PS5." },
+  { "key": "scalper", "icon": "🛒", "title": "抢购与库存告警（历史）", "titleEn": "Stock Bots (Historical)", "desc": "首发缺货时期的抢购脚本，多数已停止维护。", "descEn": "Launch-era purchase bots, mostly unmaintained." }
  ],
  "projects": [
   { "repo": "boykopovar/AnyPS5", "cat": "emulator", "zh": "自动把 PS5 可执行文件移植到 Linux / Windows" },
