@@ -274,6 +274,8 @@
   {"repo":"tommargar/DualSense4Rockstar","cat":"dualsense","zh":"GTA V / RDR 2 的 DualSense 自适应扳机 Mod（基于 DSX）","en":"Mods for GTA V and RDR 2 to add support for adaptive triggers to the DualSense controller via DSX ","auto":true},
   {"repo":"piereacy/FH-DualSense-Enhanced","cat":"dualsense","zh":"《极限竞速：地平线》的 DualSense 触感增强","en":"Forza Horizon DualSense Controller Adaptive Vibration","auto":true},
   {"repo":"qingwa2009/MyBLEGamepad","cat":"dualsense","zh":"用 ESP32 自制可模拟 Xbox / Switch Pro / DualSense 的蓝牙手柄","en":"用ESP32自制xbox+switchPro+DualSense 蓝牙手柄（Use ESP32 to create a xbox+SwitchPro+DualSense BLE Gamepad）","auto":true},
-  {"repo":"CyberKomodo/CyberKomodo.DualSense","cat":"dualsense","zh":"Unity 的 DualSense 手柄接入插件（USB 与蓝牙）","en":"DualSense controller integration for Unity with support for USB and Bluetooth.","auto":true}
+  {"repo":"CyberKomodo/CyberKomodo.DualSense","cat":"dualsense","zh":"Unity 的 DualSense 手柄接入插件（USB 与蓝牙）","en":"DualSense controller integration for Unity with support for USB and Bluetooth.","auto":true},
+  {"repo":"jamesst20/ps5-y2jb-installer","cat":"store","zh":"Y2JB Installer for PS5","en":"Y2JB Installer for PS5","auto":true},
+  {"repo":"Epinorr/y2jb-update-blocker","cat":"hen","zh":"A PlayStation 5 payload for blocking YouTube update metadata","en":"A PlayStation 5 payload for blocking YouTube update metadata","auto":true}
  ]
 }
